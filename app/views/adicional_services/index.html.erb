@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lista de Servicios Adicionales</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Costo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @adicional_services.each do |adicional_service| %>
+      <tr>
+        <td><%= adicional_service.name %></td>
+        <td><%= adicional_service.cost %></td>
+        <td><%= link_to 'Show', adicional_service %></td>
+        <td><%= link_to 'Edit', edit_adicional_service_path(adicional_service) %></td>
+        <td><%= link_to 'Destroy', adicional_service, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Nuevo Servicio', new_adicional_service_path %>

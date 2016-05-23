@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Dueño:</strong>
+  <%= @spot.user_id %>
+</p>
+
+<p>
+  <strong>Distrito:</strong>
+  <%= District.find(@spot.district_id).name %>
+</p>
+
+<p>
+  <strong>Costo por Hora:</strong>
+  <%= @spot.cost %>
+</p>
+
+<%= link_to 'Edit', edit_spot_path(@spot) %> |
+<%= link_to 'Back', spots_path %>

@@ -4,10 +4,58 @@
   <title>InstaParking</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+    }
+    </style>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <% if current_user.type_of_user == 1 %>
+    <ul>
+      <li><%= link_to 'Home', root_path%></li>
+      <li><%= link_to 'Carros', cars_path%></li>
+      <li><%= link_to 'Reservaciones', reservations_path%></li>
+    </ul>
+  <% elsif current_user.type_of_user == 2 %>
+    <ul>
+      <li><%= link_to 'Home', root_path%></li>
+      <li><%= link_to 'Espacios', spots_path%></li>
+      <li><%= link_to 'Reservaciones', reservations_path%></li>
+    </ul>
+  <% else %>
+    <ul>
+      <li><%= link_to 'Home', root_path%></li>
+      <li><%= link_to 'Servicios Adicionales', adicional_services_path%></li>
+      <li><%= link_to 'Distritos', districts_path%></li>
+    </ul>
+  <% end %>
+  
 <%= yield %>
 
 </body>

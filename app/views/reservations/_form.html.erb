@@ -1,0 +1,93 @@
+<%= form_for(@reservation) do |f| %>
+  <% if @reservation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@reservation.errors.count, "error") %> prohibited this reservation from being saved:</h2>
+
+      <ul>
+      <% @reservation.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= f.label :car_id %><br>
+    <select id="car_id" name="reservation[car_id]">
+      <option>Seleccione el carro</option>
+      <% @cars.each do |car| %>
+        <option value="<%= car.id %>">
+          <%= car.plate.to_s %>
+        </option>
+      <% end %>
+    </select>
+  </div>
+  <div class="field">
+    <%= f.label :district_id %><br>
+    <select id="district-select" name="district_id">
+      <option>Seleccione el distrito</option>
+      <% @districts.each do |district| %>
+        <option value="<%= district.id %>">
+          <%= district.name.to_s %>
+        </option>
+      <% end %>
+    </select>
+  </div>
+  <a href="javascript:update_spaces();" id="btn-add-article" class="btn btn-success" role="button">
+    Buscar Espacios
+  </a>
+  <div class="field">
+    <%= f.label 'Lista de Espacios' %><br>
+    <select id="spot-select" name="reservation[spot_id]">
+      <option>Seleccione el espacio</option>
+    </select>
+  </div>
+  <div class="field">
+    <%= f.label 'Fecha' %><br>
+    <input name="fecha" type="date"></input>
+  </div>
+  <div class="field">
+    <%= f.label 'Hora Inicio' %><br>
+    <input name="horainicio" placeholder="Hora de Inicio hh:mm" type="text"></input>
+  </div>
+  <div class="field">
+    <%= f.label 'Hora Fin' %><br>
+    <input name="horafin" placeholder="Hora de Inicio hh:mm" type="text"></input>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<script>
+  
+  function update_spaces(){
+    var url="/reservations/complete";
+    var district_chosen=$('#district-select').val();
+    var form_token='#{form_authenticity_token}';
+    console.log(form_token);
+    $.ajax({
+        type: "POST",
+        url: url,
+        async: false,
+        data: {  district: district_chosen,authenticity_token: form_token}
+    }).done(function( data ) {
+      newOptions = [];
+      $.each(data.combo, function(key, value){
+        item = {};
+        item['name'] = value.name;
+        item['id'] = value.id;
+        newOptions.push(item);
+      });
+      $('#spot-select').empty();
+      $('#spot-select').append(
+          $("<option></option>").attr("value", "0").text("Seleccione el espacio").attr("selected","selected")
+        )
+      $.each(newOptions, function(key,value){
+        $('#spot-select').append(
+          $("<option></option>").attr("value", value.id).text(value.name)
+        )
+      });
+    });
+  }
+
+</script>

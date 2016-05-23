@@ -11,7 +11,49 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160518040250) do
+ActiveRecord::Schema.define(version: 20160523053159) do
+
+  create_table "adicional_services", force: :cascade do |t|
+    t.string   "name"
+    t.float    "cost",       limit: 25
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+  end
+
+  create_table "cars", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "plate"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "districts", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "reservations", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "car_id"
+    t.integer  "spot_id"
+    t.datetime "start_hour"
+    t.datetime "end_hour"
+    t.string   "status"
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+    t.float    "final_cost", limit: 25
+  end
+
+  create_table "spots", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "district_id"
+    t.float    "cost",        limit: 25
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.string   "description"
+    t.string   "address"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -26,6 +68,9 @@ ActiveRecord::Schema.define(version: 20160518040250) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "names"
+    t.string   "last_names"
+    t.integer  "type_of_user"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

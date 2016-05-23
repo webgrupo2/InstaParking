@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listado de Reservaciones</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Auto</th>
+      <th>Lugar</th>
+      <th>Hora Inicio</th>
+      <th>Hora Fin</th>
+      <th>Costo</th>
+      <th>Estado</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @reservations.each do |reservation| %>
+      <tr>
+        <td><%= reservation.car_id %></td>
+        <td><%= reservation.spot_id %></td>
+        <td><%= reservation.start_hour %></td>
+        <td><%= reservation.end_hour %></td>
+        <td><%= reservation.final_cost %></td>
+        <td><%= reservation.status %></td>
+        <td><%= link_to 'Show', reservation %></td>
+        <td><%= link_to 'Destroy', reservation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Realizar Reservacion', new_reservation_path %>

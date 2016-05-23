@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @adicional_service.name %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @adicional_service.cost %>
+</p>
+
+<%= link_to 'Edit', edit_adicional_service_path(@adicional_service) %> |
+<%= link_to 'Back', adicional_services_path %>
