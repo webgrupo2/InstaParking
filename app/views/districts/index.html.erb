@@ -1,27 +1,63 @@
-<p id="notice"><%= notice %></p>
+<div class="bg-light dark p30 br-b br-grey">
+  <div class="row">
+    <div class=col-md-3>
+      <p id="notice"><%= notice %></p>
 
-<h1>Lista de Distritos</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @districts.each do |district| %>
-      <tr>
-        <td><%= district.name %></td>
-        <td><%= link_to 'Show', district %></td>
-        <td><%= link_to 'Edit', edit_district_path(district) %></td>
-        <td><%= link_to 'Destroy', district, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'Nuevo Distrito', new_district_path %>
+      <h1>Lista de Distritos</h1>
+    </div>
+    <div class="col-md-3">
+      <div class="input-group input-group-merge input-hero mb10">
+        <a class="btn btn-primary btn-block" href="<%= new_district_path %>">
+          Nuevo Distrito
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tab-block p20 mt10">
+  <section>
+    
+    <div class="col-md-12">
+      <div class="panel panel-visible">
+        <div class="panel-heading">
+          <div class="panel-title hidden-xs">
+            <span class="glyphicon glyphicon-tasks">></span>
+            Lista de Distritos
+          </div>
+        </div>
+        <div class="panel-body pn">
+          <table cellspacing="0" class="table table-striped table-hover" width="100%">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th colspan="3"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @districts.each do |district| %>
+                <tr>
+                  <td><%= district.name %></td>
+                  <td>
+                    <a class="btn btn-success" href="<%= district_path(district.id) %>">
+                      Ver
+                    </a>
+                  </td>
+                  <td>
+                    <a class="btn btn-warning" href="<%= edit_district_path(district.id) %>">
+                      Editar
+                    </a>
+                  </td>
+                  <td>
+                    <a class="btn btn-danger" data-confirm="Estas seguro?" data-method="DELETE" href="<%= district_path(district.id) %>">
+                      Eliminar
+                    </a>
+                  </td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

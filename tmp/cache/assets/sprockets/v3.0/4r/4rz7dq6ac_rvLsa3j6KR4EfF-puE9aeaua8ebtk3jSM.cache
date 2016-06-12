@@ -1,0 +1,63 @@
+{:uriI"´file://app/assets/javascripts/vendors/bower_components/summernote/examples/ondialog.html?type=text/html&id=b7ce4dfefae53eee4d839de643772ae8103dca7995d97fa70d16362e96b060d6:ET:load_pathI"app/assets/javascripts;T:filenameI"Vapp/assets/javascripts/vendors/bower_components/summernote/examples/ondialog.html;T:	nameI":vendors/bower_components/summernote/examples/ondialog;T:logical_pathI"?vendors/bower_components/summernote/examples/ondialog.html;T:content_typeI"text/html;T:sourceI"<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <title>summernote</title>
+
+  <!-- include jquery -->
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+  <!-- include libraries BS3 -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+
+  <!-- include summernote -->
+  <link rel="stylesheet" href="../dist/summernote.css">
+  <script type="text/javascript" src="../dist/summernote.js"></script>
+
+  <script>
+    $(function () {
+      $('#dropper').on('shown.bs.modal', function() {
+        $('#dropping').summernote({ height: 300, focus: true });
+      }).on('hidden.bs.modal', function () {
+        $('#dropping').destroy();
+      });
+    });
+  </script>
+</head>
+<body>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#dropper">Show Dialog</button>
+<div id="dropper" class="modal fade" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="dropping">text...</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default pull-left">
+          <span class='fa fa-paperclip '></span>
+          Attach Digital Assets
+        </button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default opacity75" class="close" data-dismiss="modal">
+            &times; Cancel
+          </button>
+          <button type="button" class="btn btn-warning" href="javascript:postDrop()">
+            Post Status Update
+            <span class='fa fa-bullhorn '></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+</body>
+</html>
+
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"dfile-digest://app/assets/javascripts/vendors/bower_components/summernote/examples/ondialog.html;TTF:charsetI"
+utf-8;F:digest"%Ÿ–Ÿﬁóq‹·7ÀHô*§§]\Ò/Sõ"∏?Oíﬂ¬:lengthi:dependencies_digest"%˙èº7⁄O∂*ä_r´œD?·)‚àÉƒÀ|:idI"Eb7ce4dfefae53eee4d839de643772ae8103dca7995d97fa70d16362e96b060d6;F:
+mtimel+ˇÜ\W

@@ -6,9 +6,12 @@ class ReservationsController < ApplicationController
   end
 
   def new
-    @cars = Car.where("user_id = ?",current_user.id)
     @districts = District.all
     @reservation = Reservation.new
+  end
+  
+  def show
+    @reservation = Reservation.find(params[:id])
   end
 
   def create
@@ -24,6 +27,7 @@ class ReservationsController < ApplicationController
   end
 
   def edit
+    @districts = District.all
     @reservation = Reservation.find(params[:id])
   end
 
@@ -50,7 +54,7 @@ class ReservationsController < ApplicationController
   private
   def params_reservation
     params.require(:reservation).permit(
-      :car_id,:spot_id,:fecha,:horainicio,:horafin
+      :spot_id,:fecha,:horainicio,:horafin
     )
   end
 end

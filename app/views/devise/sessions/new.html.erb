@@ -113,20 +113,7 @@
                 <!-- Wrapper for Slides -->
                 <div class="carousel-inner" role="listbox">
 
-                  <!-- Slide 2 -->
-                  <div class="item item-2 slide-form active">
-                    <div class="carousel-caption">
-                      <div class="c2 col-xs-12 col-sm-12 col-md-12">
-                        <h2 class="title">InstaParking</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Slide 2 -->
-
+                  
                 </div>
                 <!-- End Wrapper for Slides -->
 
@@ -138,39 +125,7 @@
       <!-- END SLIDESHOW -->
 
       <!-- NAVBAR -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and Toggle -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#anch-top">InstaParking</a>
-          </div>
-          <!-- End Brand and Toggle -->
-          <!-- Menu -->
-          <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <a href="#anch-top">Que es</a>
-              </li>
-              <li data-toggle="collapse" data-target="#navbar-collapse-1">
-                <a href="#anch-team">Quienes Somos</a>
-              </li>
-              <li data-toggle="collapse" data-target="#navbar-collapse-1">
-                <a href="#anch-features">Preguntas Frecuentes</a>
-              </li>
-              <li data-toggle="collapse" data-target="#navbar-collapse-1">
-                <a href="#anch-contact">Contactenos</a>
-              </li>
-            </ul>
-          </div>
-          <!-- End Menu -->
-        </div>
-      </nav>
+      
       <!-- END NAVBAR -->
 
     </header>
@@ -181,18 +136,12 @@
     <div class="main">
 
       <!-- FEATURES -->
-      <section class="features" id="anch-features">
-        <div class="container">
+      
           <!-- Section Header -->
-          <div class="section-header">
-            <h2 class="section-title">Que es?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+          
           <!-- End Section Header -->
           <!-- Section Content -->
-          <div class="r1 row">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+          
           <!-- End Section Content -->
         </div>
       </section>
@@ -203,113 +152,57 @@
         <div class="container">
           <!-- Section Header -->
           <div class="section-header">
-            <h2 class="section-title">Quienes Somos</h2>
+            <h2 class="section-title">Locales en Alquiler</h2>
             <h3 class="section-subtitle">Lorem ipsum per fames turpis tempor elementum felis venenatis, odio vivamus sagittis massa platea</h3>
           </div>
           <!-- End Section Header -->
-          <div class="r1 row">
-            <div class="c1 col-sm-6 col-md-4 animateblock ltr-2 speed-2">
-            </div>
-            <div class="c1 col-sm-6 col-md-3 animateblock ltr-2 speed-2">
-              <div class="team-wrapper">
-                <!-- Photo -->
-                <div class="team-photo">
-                  <img src="images/team/team_1.jpg" alt="Member 1">
-                </div>
-                <div class="team-content">
-                  <h3 class="name">Oscar Gonzales<br><small class="function">Test</small></h3>
-                  <p class="description">Lorem ipsum consectetur ultrices ac facilisis est neque fames, eget vel libero egestas viverra lacinia.</p>
-                </div>
-                <!-- Social buttons -->
-                <div class="team-media">
-                  <a class="team-social hastooltip linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-                  <a class="team-social hastooltip facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook" href="#"><span class="fa fa-facebook"></span></a>
-                  <a class="team-social hastooltip google-plus" data-toggle="tooltip" data-placement="bottom" title="Google+" href="#"><span class="fa fa-google-plus"></span></a>
-                  <a class="team-social hastooltip twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter" href="#"><span class="fa fa-twitter"></span></a>
-                  <a class="team-social hastooltip github" data-toggle="tooltip" data-placement="bottom" title="Github" href="#"><span class="fa fa-github"></span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="r1 row">
+          <% @spots.each do |spot| %>
             <div class="c2 col-sm-6 col-md-3 animateblock ltr-1 speed-1">
               <div class="team-wrapper">
                 <!-- Photo -->
                 <div class="team-photo">
-                  <img src="images/team/team_2.jpg" alt="Member 2">
+                  <%= image_tag spot.photo.url(:small) %>
                 </div>
                 <div class="team-content">
-                  <h3 class="name">Edgard Carranza<br><small class="function">Test</small></h3>
-                  <p class="description">Lorem ipsum consectetur ultrices ac facilisis est neque fames, eget vel libero egestas viverra lacinia.</p>
-                </div>
-                <!-- Social buttons -->
-                <div class="team-media">
-                  <a class="team-social hastooltip linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-                  <a class="team-social hastooltip facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook" href="#"><span class="fa fa-facebook"></span></a>
-                  <a class="team-social hastooltip google-plus" data-toggle="tooltip" data-placement="bottom" title="Google+" href="#"><span class="fa fa-google-plus"></span></a>
-                  <a class="team-social hastooltip twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter" href="#"><span class="fa fa-twitter"></span></a>
-                  <a class="team-social hastooltip github" data-toggle="tooltip" data-placement="bottom" title="Github" href="#"><span class="fa fa-github"></span></a>
+                  <h3 class="name"><%= spot.district.name %><br><small class="function">Precio: <%= spot.cost %></small></h3>
+                  <p class="description"><%= spot.address %></p>
+                  <p class="description"><%= spot.description %></p>
                 </div>
               </div>
             </div>
-            <div class="c3 col-sm-6 col-md-3 animateblock rtl-1 speed-1">
-              <div class="team-wrapper">
+          <% end %>
+        </div>
+      </section>
+          <!-- Section Header -->
+          
+          <!-- End Section Header -->
+          
                 <!-- Photo -->
-                <div class="team-photo">
-                  <img src="images/team/team_3.jpg" alt="Member 3">
-                </div>
-                <div class="team-content">
-                  <h3 class="name">Jaime Meza<br><small class="function">Test</small></h3>
-                  <p class="description">Lorem ipsum consectetur ultrices ac facilisis est neque fames, eget vel libero egestas viverra lacinia.</p>
-                </div>
+                
                 <!-- Social buttons -->
-                <div class="team-media">
-                  <a class="team-social hastooltip linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-                  <a class="team-social hastooltip facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook" href="#"><span class="fa fa-facebook"></span></a>
-                  <a class="team-social hastooltip google-plus" data-toggle="tooltip" data-placement="bottom" title="Google+" href="#"><span class="fa fa-google-plus"></span></a>
-                  <a class="team-social hastooltip twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter" href="#"><span class="fa fa-twitter"></span></a>
-                  <a class="team-social hastooltip github" data-toggle="tooltip" data-placement="bottom" title="Github" href="#"><span class="fa fa-github"></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="c4 col-sm-6 col-md-3 animateblock rtl-2 speed-2">
-              <div class="team-wrapper">
+                
+             
                 <!-- Photo -->
-                <div class="team-photo">
-                  <img src="images/team/team_4.jpg" alt="Member 4">
-                </div>
-                <div class="team-content">
-                  <h3 class="name">Nilsa Mas<br><small class="function">Test</small></h3>
-                  <p class="description">Lorem ipsum consectetur ultrices ac facilisis est neque fames, eget vel libero egestas viverra lacinia.</p>
-                </div>
+                
                 <!-- Social buttons -->
-                <div class="team-media">
-                  <a class="team-social hastooltip linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-                  <a class="team-social hastooltip facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook" href="#"><span class="fa fa-facebook"></span></a>
-                  <a class="team-social hastooltip google-plus" data-toggle="tooltip" data-placement="bottom" title="Google+" href="#"><span class="fa fa-google-plus"></span></a>
-                  <a class="team-social hastooltip twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter" href="#"><span class="fa fa-twitter"></span></a>
-                  <a class="team-social hastooltip github" data-toggle="tooltip" data-placement="bottom" title="Github" href="#"><span class="fa fa-github"></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="c4 col-sm-6 col-md-3 animateblock rtl-2 speed-2">
-              <div class="team-wrapper">
+                
+              
                 <!-- Photo -->
-                <div class="team-photo">
-                  <img src="images/team/team_4.jpg" alt="Member 4">
-                </div>
-                <div class="team-content">
-                  <h3 class="name">Luis Aragón<br><small class="function">Test</small></h3>
-                  <p class="description">Lorem ipsum consectetur ultrices ac facilisis est neque fames, eget vel libero egestas viverra lacinia.</p>
-                </div>
+                
+                
                 <!-- Social buttons -->
-                <div class="team-media">
-                  <a class="team-social hastooltip linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-                  <a class="team-social hastooltip facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook" href="#"><span class="fa fa-facebook"></span></a>
-                  <a class="team-social hastooltip google-plus" data-toggle="tooltip" data-placement="bottom" title="Google+" href="#"><span class="fa fa-google-plus"></span></a>
-                  <a class="team-social hastooltip twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter" href="#"><span class="fa fa-twitter"></span></a>
-                  <a class="team-social hastooltip github" data-toggle="tooltip" data-placement="bottom" title="Github" href="#"><span class="fa fa-github"></span></a>
-                </div>
+                
+              
+                <!-- Photo -->
+                
+                
+                <!-- Social buttons -->
+                
+              
+                <!-- Photo -->
+                
+                <!-- Social buttons -->
+                
               </div>
             </div>
           </div>
@@ -318,49 +211,7 @@
       <!-- END TEAM -->
       
       <!-- STATS -->
-      <section class="stats hidden-xs">
-        <div class="bg-section">
-          <%= image_tag "index/bg_1.jpg", alt: "Stats Section Background"%>
-        </div>
-        <div class="container">
-          <!-- Section Header -->
-          <div class="section-header">
-            <h2 class="section-title">Preguntas Frecuentes</h2>
-            <h3 class="section-subtitle">Lorem ipsum per fames turpis tempor elementum felis venenatis, odio vivamus sagittis massa platea</h3>
-          </div>
-          <!-- End Section Header -->
-          <!-- Section Content -->
-          <div class="r1 row">
-            <div class="c1 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta1</p>
-            </div>
-            <div class="c2 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta2</p>
-            </div>
-            <div class="c3 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta3</p>
-            </div>
-            <div class="c4 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta4</p>
-            </div>
-          </div>
-          <div class="r1 row">
-            <div class="c1 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta1</p>
-            </div>
-            <div class="c2 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta2</p>
-            </div>
-            <div class="c3 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta3</p>
-            </div>
-            <div class="c4 col-sm-6 col-md-3 animateblock size speed-1">
-              <p class="description">Pregunta4</p>
-            </div>
-          </div>
-          <!-- End Section Content -->
-        </div>
-      </section>
+
       <!-- END STATS -->
 
 
@@ -369,10 +220,7 @@
       <section class="contact" id="anch-contact">
         <div class="container-fluid">
           <!-- Section Header -->
-          <div class="section-header">
-            <h2 class="section-title">Contactanos</h2>
-            <h3 class="section-subtitle">Lorem ipsum per fames turpis tempor elementum felis venenatis, odio vivamus sagittis massa platea</h3>
-          </div>
+          
           <!-- End Section Header -->
           <!-- Section Content -->
           <div class="r1 row">
@@ -381,7 +229,7 @@
               <div class="panel-group" id="contact-accordion-1">
                 <div class="panel panel-default">
                   <h3 class="map-title">
-                      <a data-toggle="collapse" data-parent="#contact-accordion-1" href="#contact-collapse-1" aria-expanded="true" aria-controls="contact-collapse-1"><span class="glyphicon glyphicon-map-marker"></span><br>Where</a>
+                      <a data-toggle="collapse" data-parent="#contact-accordion-1" href="#contact-collapse-1" aria-expanded="true" aria-controls="contact-collapse-1"><span class="glyphicon glyphicon-map-marker"></span><br>Ubicanos</a>
                     </h3>
                   <div class="panel-collapse collapse in" id="contact-collapse-1">
                     <div class="panel-body">
@@ -428,82 +276,39 @@
             <div class="c1 col-md-10 col-md-offset-1">
               <div class="alerts hidden-xs alerts-contact"></div>
               <!-- Contact form -->
-              <div class="form-horizontal contact-form" role="form">
-                <fieldset>
-                  <legend>Contact</legend>
-                  <div class="r1 row form-group">
-                    <div class="c1 col-sm-6 col-md-6">
-                      <input class="form-control" id="fname" name="fname" type="text" placeholder="First Name *" required>
-                    </div>
-                    <div class="c2 col-sm-6 col-md-6">
-                      <input class="form-control" id="lname" name="lname" type="text" placeholder="Last Name *" required>
-                    </div>
-                  </div>
-                  <div class="r2 row form-group">
-                    <div class="c1 col-sm-6 col-md-6">
-                      <input class="form-control" id="email" name="email" type="email" placeholder="Email *" required>
-                    </div>
-                    <div class="c2 col-sm-6 col-md-6">
-                      <input class="form-control" id="phone" name="phone" type="tel" placeholder="Phone">
-                    </div>
-                  </div>
-                  <div class="r3 row form-group">
-                    <div class="c1 col-sm-6 col-md-6">
-                      <input class="form-control" id="company" name="company" type="text" placeholder="Company">
-                    </div>
-                    <div class="c2 col-sm-6 col-md-6">
-                      <input class="form-control" id="website" name="website" type="url" placeholder="Website">
-                    </div>
-                  </div>
-                  <div class="r4 row form-group">
-                    <div class="c1 col-md-12">
-                      <input class="form-control" id="subject" name="subject" type="text" placeholder="Subject *" required>
-                    </div>
-                  </div>
-                  <div class="r5 row form-group">
-                    <div class="c1 col-md-12">
-                      <textarea class="form-control" id="message" name="message" rows="10" placeholder="Message *" required></textarea>
-                    </div>
-                  </div>
-                  <div class="r6 row form-group">
-                    <div class="c1 col-md-12">
-                      <button class="btn btn-lg btn-danger submit-form-contact" type="submit">Enviar Mensaje</button>
-                    </div>
-                  </div>
-                </fieldset>
-              </div>
+              
               <!-- End Contact form -->
               <div class="alerts alerts-xs hidden-sm hidden-md hidden-lg alerts-contact"></div>
             </div>
           </div>
           <div>
             <div class="col-md-6">
-              <h2>Registrate Chulls!</h2>
+              <h2>Registrate</h2>
               <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
                 <%= devise_error_messages! %>
                 
                 <div class="field">
-                  <%= f.label :names %><br />
+                  <%= f.label :Nombre %><br />
                   <%= f.text_field :names%>
                 </div>
                 
                 <div class="field">
-                  <%= f.label :last_names %><br />
+                  <%= f.label :Apellido %><br />
                   <%= f.text_field :last_names %>
                 </div>
                 
                 <div class="field">
-                  <%= f.label :type_of_user %><br />
+                  <%= f.label :Tipo_De_Usuario_1_Cliente_2_Arrendador %><br />
                   <%= f.text_field :type_of_user %>
                 </div>
               
                 <div class="field">
-                  <%= f.label :email %><br />
+                  <%= f.label :Email %><br />
                   <%= f.email_field :email, autofocus: true %>
                 </div>
               
                 <div class="field">
-                  <%= f.label :password %>
+                  <%= f.label :Contraseña %>
                   <% if @minimum_password_length %>
                   <em>(<%= @minimum_password_length %> characters minimum)</em>
                   <% end %><br />
@@ -511,37 +316,37 @@
                 </div>
               
                 <div class="field">
-                  <%= f.label :password_confirmation %><br />
+                  <%= f.label :Confirmar_Contraseña %><br />
                   <%= f.password_field :password_confirmation, autocomplete: "off" %>
                 </div>
               
                 <div class="actions">
-                  <%= f.submit "Sign up" %>
+                  <%= f.submit "Completar Registro" %>
                 </div>
               <% end %>
             </div>
             <div class="col-md-6">
-              <h2>Ingresa Chulls!</h2>
+              <h2>Ingresa</h2>
                 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
                   <div class="field">
-                    <%= f.label :email %><br />
+                    <%= f.label :Email %><br />
                     <%= f.email_field :email, autofocus: true %>
                   </div>
                 
                   <div class="field">
-                    <%= f.label :password %><br />
+                    <%= f.label :Contraseña %><br />
                     <%= f.password_field :password, autocomplete: "off" %>
                   </div>
                 
                   <% if devise_mapping.rememberable? -%>
                     <div class="field">
                       <%= f.check_box :remember_me %>
-                      <%= f.label :remember_me %>
+                      <%= f.label :Recordar_Usuario %>
                     </div>
                   <% end -%>
                 
                   <div class="actions">
-                    <%= f.submit "Log in" %>
+                    <%= f.submit "Ingresa" %>
                   </div>
                 <% end %>
             </div>
@@ -560,7 +365,9 @@
       <div class="container">
         <div class="r1 row">
           <div class="c1 col-md-12">
-            <h1 class="footer-logo">InstaParking</h1>
+            <!-- <h1 align="center"class="footer-logo">InstaParking</h1> -->
+            <h1 align="center">InstaParking</h1>
+             
             <!-- Social Buttons -->
             <section class="social-icons">
               <h3 class="hide">Social Buttons</h3>
@@ -580,7 +387,7 @@
         <div class="container">
           <div class="r1 row">
             <div class="c1 col-md-12">
-              <p>&copy; 2016 - InstaParking.</p>
+              <p>&copy; 2016 - CarParkExpress</p>
             </div>
           </div>
         </div>

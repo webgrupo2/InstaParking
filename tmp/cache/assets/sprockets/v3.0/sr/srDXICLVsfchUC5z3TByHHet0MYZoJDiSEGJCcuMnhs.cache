@@ -1,0 +1,33 @@
+{:uriI"¤file://app/assets/javascripts/vendors/bower_components/autosize/bower.json?type=application/json&id=9ec90388d90b7a9da57e6cb0e27c1a07ff83b53d76fd5c76a376857c34ba49a0:ET:load_pathI"app/assets/javascripts;T:filenameI"Happ/assets/javascripts/vendors/bower_components/autosize/bower.json;T:	nameI",vendors/bower_components/autosize/bower;T:logical_pathI"1vendors/bower_components/autosize/bower.json;T:content_typeI"application/json;T:sourceI">{
+	"name": "autosize",
+	"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+	"dependencies": {},
+	"keywords": [
+		"textarea",
+		"form",
+		"ui"
+	],
+	"authors": [
+		{
+			"name": "Jack Moore",
+			"url": "http://www.jacklmoore.com",
+			"email": "hello@jacklmoore.com"
+		}
+	],
+	"license": "MIT",
+	"homepage": "http://www.jacklmoore.com/autosize",
+	"ignore": [],
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/jackmoore/autosize.git"
+	},
+	"main": "dist/autosize.js",
+	"moduleType": [
+		"amd",
+		"node"
+	]
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Vfile-digest://app/assets/javascripts/vendors/bower_components/autosize/bower.json;TTF:charsetI"
+utf-8;F:digest"%/®o8”$©|6ˆ`5Äõø¥ÒÔ—#œX›õÂ­ 2n”:lengthi>:dependencies_digest"%¸Räv¾Éë)V–65İi´l_A*e0Ñ®öófŒ:idI"E9ec90388d90b7a9da57e6cb0e27c1a07ff83b53d76fd5c76a376857c34ba49a0;F:
+mtimel+¬„\W

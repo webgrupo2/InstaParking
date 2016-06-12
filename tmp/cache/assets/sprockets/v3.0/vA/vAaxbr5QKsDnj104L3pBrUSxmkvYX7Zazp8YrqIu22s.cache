@@ -1,0 +1,33 @@
+{:uriI"¦file://app/assets/javascripts/vendors/bower_components/summernote/examples/bs2.html?type=text/html&id=c2fd43e9191203baecb04ea4e64039836f389a3d0cd778d587a046e846095ce1:ET:load_pathI"app/assets/javascripts;T:filenameI"Qapp/assets/javascripts/vendors/bower_components/summernote/examples/bs2.html;T:	nameI"5vendors/bower_components/summernote/examples/bs2;T:logical_pathI":vendors/bower_components/summernote/examples/bs2.html;T:content_typeI"text/html;T:sourceI"ø<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <title>summernote</title>
+  <!-- include jquery -->
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+  <!-- include libraries BS2 -->
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> 
+  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script> 
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- include summernote -->
+  <link rel="stylesheet" href="../dist/summernote.css">
+  <script type="text/javascript" src="../dist/summernote.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.summernote').summernote({height: 200});
+    });
+  </script>
+</head>
+<body>
+<div class="summernote"></div>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"_file-digest://app/assets/javascripts/vendors/bower_components/summernote/examples/bs2.html;TTF:charsetI"
+utf-8;F:digest"%u˜ïO,2žò£ÙE}“c^èw,‘€'ê}E(…ônhf:lengthiø:dependencies_digest"%÷ø­ V7KÔ’£§4±œ”žPºÂ>ÒéÆ•ó!ûI›:idI"Ec2fd43e9191203baecb04ea4e64039836f389a3d0cd778d587a046e846095ce1;F:
+mtimel+ú†\W

@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users, :controllers => { registrations: 'users/registrations' }
+  devise_for :users, :controllers => { registrations: 'users/registrations', sessions: 'users/sessions' }
   root to: 'main#index'
   
   # The priority is based upon order of creation: first created -> highest priority.
@@ -16,7 +16,6 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-  resources :cars
   resources :spots
   resources :districts
   resources :adicional_services

@@ -1,0 +1,26 @@
+{:uriI"¦file://app/assets/javascripts/vendors/bower_components/summernote/bower.json?type=application/json&id=458fce5c6c482741b1f590acc3229b066070ac0a47b9cf578930019553809981:ET:load_pathI"app/assets/javascripts;T:filenameI"Japp/assets/javascripts/vendors/bower_components/summernote/bower.json;T:	nameI".vendors/bower_components/summernote/bower;T:logical_pathI"3vendors/bower_components/summernote/bower.json;T:content_typeI"application/json;T:sourceI"q{
+  "name": "summernote",
+  "homepage": "http://summernote.org",
+  "license": "MIT",
+  "main": [
+    "./dist/summernote.js",
+    "./dist/summernote.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0",
+    "bootstrap": ">= 3.0.1",
+    "font-awesome": ">=4.2.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Xfile-digest://app/assets/javascripts/vendors/bower_components/summernote/bower.json;TTF:charsetI"
+utf-8;F:digest"%û£zíÇ÷°j»Ð{”‡ ÛøPr>»Ðfd©:lengthiq:dependencies_digest"%(Æs“ãÛf4×›„¸s-­À©\èoÕnÆQ½³>ù”À¸Î:idI"E458fce5c6c482741b1f590acc3229b066070ac0a47b9cf578930019553809981;F:
+mtimel+÷†\W

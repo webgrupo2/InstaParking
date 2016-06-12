@@ -11,17 +11,6 @@
     </div>
   <% end %>
   <div class="field">
-    <%= f.label :car_id %><br>
-    <select id="car_id" name="reservation[car_id]">
-      <option>Seleccione el carro</option>
-      <% @cars.each do |car| %>
-        <option value="<%= car.id %>">
-          <%= car.plate.to_s %>
-        </option>
-      <% end %>
-    </select>
-  </div>
-  <div class="field">
     <%= f.label :district_id %><br>
     <select id="district-select" name="district_id">
       <option>Seleccione el distrito</option>

@@ -1,0 +1,25 @@
+{:uriI"©file://app/assets/javascripts/vendors/bower_components/summernote/composer.json?type=application/json&id=687927e60e0c1bc297da16c4f3d2e144c75413ccf0ec2d2371989936d9596818:ET:load_pathI"app/assets/javascripts;T:filenameI"Mapp/assets/javascripts/vendors/bower_components/summernote/composer.json;T:	nameI"1vendors/bower_components/summernote/composer;T:logical_pathI"6vendors/bower_components/summernote/composer.json;T:content_typeI"application/json;T:sourceI"„{
+    "name": "summernote/summernote",
+    "description": "Super Simple WYSIWYG Editor on Bootstrap(3.0 and 2.x).",
+    "type": "library",
+    "keywords": [
+        "wysiwyg"
+    ],
+    "homepage": "http://summernote.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan",
+            "email": "susukang98@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/summernote/summernote/issues"
+    }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"[file-digest://app/assets/javascripts/vendors/bower_components/summernote/composer.json;TTF:charsetI"
+utf-8;F:digest"%K¸¡‚èÒøâ˙–¶πååÀß PıTIEÜ<ÜÉ÷ï:lengthi„:dependencies_digest"%Z6·V\¢ˆö©=^Aa}≥π§ßÄi@Íˆú‚:idI"E687927e60e0c1bc297da16c4f3d2e144c75413ccf0ec2d2371989936d9596818;F:
+mtimel+˜Ü\W

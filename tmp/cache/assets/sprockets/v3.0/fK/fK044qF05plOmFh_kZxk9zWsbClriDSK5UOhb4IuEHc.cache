@@ -1,0 +1,37 @@
+{:uriI"Æfile://app/assets/javascripts/vendors/bower_components/summernote/examples/nativestyle.html?type=text/html&id=d6daeeb0742a308e6601ab01548394e4037afca79d8714a910017c0364123e89:ET:load_pathI"app/assets/javascripts;T:filenameI"Yapp/assets/javascripts/vendors/bower_components/summernote/examples/nativestyle.html;T:	nameI"=vendors/bower_components/summernote/examples/nativestyle;T:logical_pathI"Bvendors/bower_components/summernote/examples/nativestyle.html;T:content_typeI"text/html;T:sourceI"Z<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <title>summernote</title>
+  <!-- include jquery -->
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+  <!-- include libraries BS3 -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+
+  <!-- include summernote -->
+  <link rel="stylesheet" href="../dist/summernote.css">
+  <script type="text/javascript" src="../dist/summernote.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.summernote').summernote({
+        height: 200,
+        tabsize: 2,
+        styleWithSpan: false
+      });
+    });
+  </script>
+</head>
+<body>
+<textarea class="summernote"><p>Seasons <b>coming up</b></p></textarea>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"gfile-digest://app/assets/javascripts/vendors/bower_components/summernote/examples/nativestyle.html;TTF:charsetI"
+utf-8;F:digest"%G‡ª√€ôRóè‡YÑ/I˛Ñ6ü©¿.WCI±n…±w[:lengthiZ:dependencies_digest"%#H°ß-Z&Y2âv·™Îîªƒk·lÇecÌ»í÷:idI"Ed6daeeb0742a308e6601ab01548394e4037afca79d8714a910017c0364123e89;F:
+mtimel+ˇÜ\W

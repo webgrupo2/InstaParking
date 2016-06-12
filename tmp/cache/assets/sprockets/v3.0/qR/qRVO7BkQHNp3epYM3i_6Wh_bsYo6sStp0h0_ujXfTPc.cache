@@ -1,0 +1,24 @@
+{:uriI"©file://app/assets/javascripts/vendors/bower_components/farbtastic/composer.json?type=application/json&id=a3b948d6e11777a0217b396e13e9290a658e34e56b1ec2f40e28d55398c7e453:ET:load_pathI"app/assets/javascripts;T:filenameI"Mapp/assets/javascripts/vendors/bower_components/farbtastic/composer.json;T:	nameI"1vendors/bower_components/farbtastic/composer;T:logical_pathI"6vendors/bower_components/farbtastic/composer.json;T:content_typeI"application/json;T:sourceI"I{
+  "name": "mattfarina/farbtastic",
+  "description": "jQuery Color Wheel",
+  "type": "component",
+  "license": "GPL-2.0",
+  "require": {
+    "components/jquery": ">=1.4.2"
+  },
+  "extra": {
+    "component": {
+      "scripts": [
+        "src/farbtastic.js"
+      ],
+      "shim": {
+        "deps": ["jquery"]
+      }
+    }
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"[file-digest://app/assets/javascripts/vendors/bower_components/farbtastic/composer.json;TTF:charsetI"
+utf-8;F:digest"%uL¶w×6o|¿6>Fï÷÷—¹¤Èƒmú“¬—+ M:lengthiI:dependencies_digest"%sÂaˆRÛÊLù:¤àrª5?yöF¶¸ Ôøi¹Ù`:idI"Ea3b948d6e11777a0217b396e13e9290a658e34e56b1ec2f40e28d55398c7e453;F:
+mtimel+ê„\W

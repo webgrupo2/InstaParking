@@ -1,0 +1,63 @@
+{:uriI"¨file://app/assets/javascripts/vendors/bower_components/summernote/examples/index.html?type=text/html&id=d360a76895f3908d5cfd5be54b7249b621da2007af132376fec7c9fb00c934de:ET:load_pathI"app/assets/javascripts;T:filenameI"Sapp/assets/javascripts/vendors/bower_components/summernote/examples/index.html;T:	nameI"7vendors/bower_components/summernote/examples/index;T:logical_pathI"<vendors/bower_components/summernote/examples/index.html;T:content_typeI"text/html;T:sourceI"™	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <title>summernote</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+</head>
+<body>
+<div class="container">
+  <h1>Summnote Sample</h1>
+
+  <h4>CodeMirror as Codeview
+    <span class="label label-info">Bootstrap v3.0.3</span>
+    <span class="label label-success">font-awesome v4.0.3</span>
+    <span class="label label-danger">CodeMirror v3.20.0</span>
+  </h4>
+  <iframe src="codemirror.html" width="100%" height="350px" frameBorder="0"></iframe>
+  <h4>Air Mode
+    <span class="label label-info">Bootstrap v3.1.1</span>
+    <span class="label label-success">font-awesome v4.0.3</span>
+    <span class="label label-danger">CodeMirror v3.20.0</span>
+  </h4>
+  <iframe src="airmode.html" width="100%" height="350px" frameBorder="0"></iframe>
+  <h4>Summernote with Form submit.
+    <span class="label label-info">Bootstrap v3.0.1</span>
+    <span class="label label-success">font-awesome v4.0.3</span>
+    <span class="label label-info">Textarea</span>
+  </h4>
+  <iframe src="textarea.html" width="100%" height="350px" frameBorder="0"></iframe>
+  <h4>Right to left
+    <span class="label label-info">Bootstrap v3.0.1</span>
+    <span class="label label-success">font-awesome v4.0.3</span>
+  </h4>
+  <iframe src="rtl.html" width="100%" height="350px" frameBorder="0"></iframe>
+  <h4>Lang (ko-KR)
+    <span class="label label-info">Bootstrap v3.0.1</span>
+    <span class="label label-success">font-awesome v4.0.3</span>
+  </h4>
+  <iframe src="lang.html" width="100%" height="350px" frameBorder="0"></iframe>
+  <h4>Plugin  
+    <span class="label label-info">Bootstrap v3.0.3</span>
+    <span class="label label-success">font-awesome v4.0.3</span>
+  </h4>
+  <iframe src="plugin.html" width="100%" height="350px" frameBorder="0"></iframe>  
+  <h4>Old library 
+    <span class="label label-info">Bootstrap v2.3.1</span>
+    <span class="label label-success">font-awesome v3.1.1</span>
+  </h4>
+  <iframe src="bs2.html" width="100%" height="350px" frameBorder="0"></iframe>
+  <h4>Old library 2
+    <span class="label label-info">Bootstrap v2.3.1</span>
+    <span class="label label-success">font-awesome v4.0.3</span>
+  </h4>
+  <iframe src="bs2fa4.html" width="100%" height="350px" frameBorder="0"></iframe>
+</div>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"afile-digest://app/assets/javascripts/vendors/bower_components/summernote/examples/index.html;TTF:charsetI"
+utf-8;F:digest"%*/…Zì@~ˆ€²žþµ´f‡Ë#¹"]n,r—ß….®y:lengthi™	:dependencies_digest"%óÓý¢FÁ<ÙÇà?™1îÏÞÖ!®Ø­ÀÑÎ2‚¤:idI"Ed360a76895f3908d5cfd5be54b7249b621da2007af132376fec7c9fb00c934de;F:
+mtimel+ý†\W

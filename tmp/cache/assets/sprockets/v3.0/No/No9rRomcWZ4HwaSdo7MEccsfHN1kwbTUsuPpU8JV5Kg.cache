@@ -1,0 +1,46 @@
+{:uriI"èfile://app/assets/images/index/favicons/manifest.json?type=application/json&id=317e4ac1f38371a55e8aa6c1a687fb8e20b49acc97dfe29d98c95e884c44cdde:ET:load_pathI"app/assets/images;T:filenameI"3app/assets/images/index/favicons/manifest.json;T:	nameI"index/favicons/manifest;T:logical_pathI"!index/favicons/manifest.json;T:content_typeI"application/json;T:sourceI"{
+	"name": "MOS7",
+	"icons": [
+		{
+			"src": "\/images\/android-chrome-36x36.png",
+			"sizes": "36x36",
+			"type": "image\/png",
+			"density": "0.75"
+		},
+		{
+			"src": "\/images\/android-chrome-48x48.png",
+			"sizes": "48x48",
+			"type": "image\/png",
+			"density": "1.0"
+		},
+		{
+			"src": "\/images\/android-chrome-72x72.png",
+			"sizes": "72x72",
+			"type": "image\/png",
+			"density": "1.5"
+		},
+		{
+			"src": "\/images\/android-chrome-96x96.png",
+			"sizes": "96x96",
+			"type": "image\/png",
+			"density": "2.0"
+		},
+		{
+			"src": "\/images\/android-chrome-144x144.png",
+			"sizes": "144x144",
+			"type": "image\/png",
+			"density": "3.0"
+		},
+		{
+			"src": "\/images\/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image\/png",
+			"density": "4.0"
+		}
+	]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Afile-digest://app/assets/images/index/favicons/manifest.json;TTF:charsetI"
+utf-8;F:digest"%◊&HÖXΩ±•ÃR‡8ù9V‡BÒù˘m˙îxR:lengthi:dependencies_digest"%Ñ[¸y–˘ òßj?…t‰YvCë©&1<µü‘Bêì¶™ï:idI"E317e4ac1f38371a55e8aa6c1a687fb8e20b49acc97dfe29d98c95e884c44cdde;F:
+mtimel+ôÌ;W

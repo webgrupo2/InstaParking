@@ -1,0 +1,49 @@
+{:uriI"ºfile://app/assets/javascripts/vendors/bower_components/malihu-custom-scrollbar-plugin/bower.json?type=application/json&id=f522c6615d121d976ea4e59b9eeecf9321575a9b70b7d8472792fdeb9eaea2dd:ET:load_pathI"app/assets/javascripts;T:filenameI"^app/assets/javascripts/vendors/bower_components/malihu-custom-scrollbar-plugin/bower.json;T:	nameI"Bvendors/bower_components/malihu-custom-scrollbar-plugin/bower;T:logical_pathI"Gvendors/bower_components/malihu-custom-scrollbar-plugin/bower.json;T:content_typeI"application/json;T:sourceI":{
+  "name": "malihu-custom-scrollbar-plugin",
+  "version": "3.0.9",
+  "title": "malihu custom scrollbar plugin",
+  "description": "Highly customizable custom scrollbar jQuery plugin, featuring vertical/horizontal scrollbars, scrolling momentum, mouse-wheel, keyboard and touch support, user defined callbacks etc.",
+  "main": [
+    "./jquery.mCustomScrollbar.js",
+    "./jquery.mCustomScrollbar.css",
+    "./mCSB_buttons.png"
+  ],
+  "keywords": [
+    "jquery",
+    "custom-scrollbar",
+    "scrollbar"
+  ],
+  "homepage": "http://manos.malihu.gr/jquery-custom-content-scroller",
+  "author": {
+    "name": "malihu",
+    "url": "http://manos.malihu.gr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malihu/malihu-custom-scrollbar-plugin.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.6",
+	"jquery-mousewheel": ">=3.0.6"
+  },
+  "ignore": [
+    "*.md",
+    ".*",
+    "*.txt",
+    "*.json",
+    "*.html",
+    "/examples",
+    "/source-files",
+    "/js"
+  ]
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"lfile-digest://app/assets/javascripts/vendors/bower_components/malihu-custom-scrollbar-plugin/bower.json;TTF:charsetI"
+utf-8;F:digest"%Í–DIíìŠ‡€f 8!•ýFÔˆ±=#\ò‰¾‹_‰·:lengthi::dependencies_digest"%²Ê÷õÑQUä46ÛÙ»!†l /D±…	œš*‡›#:idI"Ef522c6615d121d976ea4e59b9eeecf9321575a9b70b7d8472792fdeb9eaea2dd;F:
+mtimel+Q…\W

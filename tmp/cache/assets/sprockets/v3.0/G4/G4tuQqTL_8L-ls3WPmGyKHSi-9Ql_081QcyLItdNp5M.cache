@@ -1,0 +1,29 @@
+{:uriI"∞file://app/assets/javascripts/vendors/bower_components/bootstrap-sweetalert/bower.json?type=application/json&id=20cbfccaf5971f18a80e33095fc69df919648f992229156e38f71489329d2352:ET:load_pathI"app/assets/javascripts;T:filenameI"Tapp/assets/javascripts/vendors/bower_components/bootstrap-sweetalert/bower.json;T:	nameI"8vendors/bower_components/bootstrap-sweetalert/bower;T:logical_pathI"=vendors/bower_components/bootstrap-sweetalert/bower.json;T:content_typeI"application/json;T:sourceI"Ñ{
+  "name": "bootstrap-sweetalert",
+  "homepage": "http://lipis.github.io/bootstrap-sweetalert/",
+  "authors": [
+    "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)",
+    "Panayiotis Lipiridis <lipiridis@gmail.com> (http://lip.is)"
+  ],
+  "description": "A beautiful replacement for JavaScript's alert for Bootstrap.",
+  "main": [
+    "lib/sweet-alert.js",
+    "lib/sweet-alert.css",
+    "lib/sweet-alert.less",
+    "lib/sweet-alert-animations.less"
+  ],
+  "keywords": [
+    "alert",
+    "modal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lipis/bootstrap-sweetalert.git"
+  },
+  "license": "MIT"
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"bfile-digest://app/assets/javascripts/vendors/bower_components/bootstrap-sweetalert/bower.json;TTF:charsetI"
+utf-8;F:digest"%Wˇeı˚◊&òKWÀ	-q9;#yÔ]ˇk›ánÃ2L:lengthiÑ:dependencies_digest"%è’n|T‚}(æMŒ˝$k{üß≤π)H"©ΩÀªOæc:idI"E20cbfccaf5971f18a80e33095fc69df919648f992229156e38f71489329d2352;F:
+mtimel+÷Ñ\W

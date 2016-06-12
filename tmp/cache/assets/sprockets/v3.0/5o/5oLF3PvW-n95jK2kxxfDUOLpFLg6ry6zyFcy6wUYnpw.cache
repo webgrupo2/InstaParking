@@ -1,0 +1,24 @@
+{:uriI"±file://app/assets/javascripts/vendors/bower_components/jquery.easy-pie-chart/bower.json?type=application/json&id=2489f7a2939c8a1a1d5207e5d7aff5c071e192d83d4a6e9444e003693c167ae2:ET:load_pathI"app/assets/javascripts;T:filenameI"Uapp/assets/javascripts/vendors/bower_components/jquery.easy-pie-chart/bower.json;T:	nameI"9vendors/bower_components/jquery.easy-pie-chart/bower;T:logical_pathI">vendors/bower_components/jquery.easy-pie-chart/bower.json;T:content_typeI"application/json;T:sourceI"B{
+  "name": "jquery.easy-pie-chart",
+  "version": "2.1.6",
+  "main": [
+    "dist/jquery.easypiechart.js"
+  ],
+  "ignore": [
+    "demo",
+    ".editorconfig"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.0",
+    "requirejs": "~2.1.10"
+  },
+  "devDependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"cfile-digest://app/assets/javascripts/vendors/bower_components/jquery.easy-pie-chart/bower.json;TTF:charsetI"
+utf-8;F:digest"%y‹ÂD«™éï|mc¤øáÎ“†	ô°õh™Î*ýÛ‹=®4:lengthiB:dependencies_digest"%÷õòôS/ôe‚È>vòLù¨{C×Ù-«\sQ;:idI"E2489f7a2939c8a1a1d5207e5d7aff5c071e192d83d4a6e9444e003693c167ae2;F:
+mtimel+(…\W

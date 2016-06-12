@@ -1,0 +1,28 @@
+{:uriI"®file://app/assets/javascripts/vendors/bower_components/jquery-placeholder/bower.json?type=application/json&id=b5c1f76adc4adca198104b8d8c2bf830257f1902287ffac75165d06abf232ba3:ET:load_pathI"app/assets/javascripts;T:filenameI"Rapp/assets/javascripts/vendors/bower_components/jquery-placeholder/bower.json;T:	nameI"6vendors/bower_components/jquery-placeholder/bower;T:logical_pathI";vendors/bower_components/jquery-placeholder/bower.json;T:content_typeI"application/json;T:sourceI"î{
+	"name": "jquery-placeholder",
+	"description": "A jQuery plugin that enables HTML5 placeholder behavior for browsers that arenâ€™t trying hard enough yet",
+	"version": "2.1.2",
+	"license": "MIT",
+	"main": ["jquery.placeholder.js"],
+	"keywords": [
+		"form",
+		"placeholder",
+		"jQuery",
+		"jquery-plugin"
+	],
+	"dependencies": {
+		"jquery": ">=1.6"
+	},
+	"ignore": [
+		"*",
+		"!/bower.json",
+		"!/jquery.placeholder.js",
+		"!/jquery.placeholder.min.js",
+		"!/jquery.placeholder.min.js.map"
+	]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"`file-digest://app/assets/javascripts/vendors/bower_components/jquery-placeholder/bower.json;TTF:charsetI"
+utf-8;F:digest"%©ßiS±‡KÁ‡¢òu¶hú’SŠ*‚@Zİ»fŸùf8ªv:lengthiî:dependencies_digest"%gß-ÿ3ÚşS˜/¼4£Ü¬¨F/ş;·àeoÛu‡Ô?:idI"Eb5c1f76adc4adca198104b8d8c2bf830257f1902287ffac75165d06abf232ba3;F:
+mtimel+"…\W

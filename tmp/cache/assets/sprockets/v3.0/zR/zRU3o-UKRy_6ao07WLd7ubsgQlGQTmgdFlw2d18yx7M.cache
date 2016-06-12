@@ -1,0 +1,32 @@
+{:uriI"­file://app/assets/javascripts/vendors/bower_components/lightgallery/test/lightgallery.html?type=text/html&id=53645d6e7533625c26b454d969d06929db211e99afd11e1c4647b1459d8d5d2e:ET:load_pathI"app/assets/javascripts;T:filenameI"Xapp/assets/javascripts/vendors/bower_components/lightgallery/test/lightgallery.html;T:	nameI"<vendors/bower_components/lightgallery/test/lightgallery;T:logical_pathI"Avendors/bower_components/lightgallery/test/lightgallery.html;T:content_typeI"text/html;T:sourceI"<!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery lightgallery Test Suite</title>
+    <!-- Load local jQuery. -->
+    <script src="../bower_components/jquery/jquery.js"></script>
+    <!-- Load local QUnit. -->
+    <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css" media="screen">
+    <script src="../bower_components/qunit/qunit/qunit.js"></script>
+    <!-- Load local lib and tests. -->
+    <script src="../src/js/lightgallery.js"></script>
+    <script src="lightgallery_test.js"></script>
+    <!-- Removing access to jQuery and $. But it'll still be available as _$, if
+         you REALLY want to mess around with jQuery in the console. REMEMBER WE
+         ARE TESTING A PLUGIN HERE, THIS HELPS ENSURE BEST PRACTICES. REALLY. -->
+    <script>window._$ = jQuery.noConflict(true);</script>
+  </head>
+  <body>
+    <div id="qunit"></div>
+    <ul id="lightgallery">
+      <li data-src="images/4.jpg">
+            <a href="#"><img src="images/thumb4.jpg" /></a>
+      </li>
+    </ul>
+  </body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"ffile-digest://app/assets/javascripts/vendors/bower_components/lightgallery/test/lightgallery.html;TTF:charsetI"
+utf-8;F:digest"%ž)O0-ÞMsCàKÚ`X Ø­ÚaÆâº«’:lengthi:dependencies_digest"%º£ÚÖ÷‘ybfýþM«½Pu¥TX‡¶„ì²h:idI"E53645d6e7533625c26b454d969d06929db211e99afd11e1c4647b1459d8d5d2e;F:
+mtimel+P…\W

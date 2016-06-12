@@ -1,0 +1,35 @@
+{:uriI"∑file://app/assets/javascripts/vendors/bower_components/material-design-iconic-font/bower.json?type=application/json&id=dd7d7dec3a8b3c955e725af3ffc347e55c82b55cc220e774dc3df6cffb6d7027:ET:load_pathI"app/assets/javascripts;T:filenameI"[app/assets/javascripts/vendors/bower_components/material-design-iconic-font/bower.json;T:	nameI"?vendors/bower_components/material-design-iconic-font/bower;T:logical_pathI"Dvendors/bower_components/material-design-iconic-font/bower.json;T:content_typeI"application/json;T:sourceI"ù{
+  "name": "material-design-iconic-font",
+  "description": "Material Design Iconic Font",
+  "keywords": [
+    "material",
+    "design",
+    "icons",
+    "font"
+  ],
+  "authors": [
+    "Sergey Kupletsky <s.kupletsky@gmail.com> (http://github.com/zavoloklom)"
+  ],
+  "license": ["OFL-1.1", "MIT"],
+  "main": [
+    "./dist/css/*",
+    "./dist/fonts/*"
+  ],
+  "ignore": [
+    "*/.*",
+    "node_modules/*",
+    "*.json",
+    "*.md"
+  ],
+  "homepage": "http://zavoloklom.github.io/material-design-iconic-font/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zavoloklom/material-design-iconic-font.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"ifile-digest://app/assets/javascripts/vendors/bower_components/material-design-iconic-font/bower.json;TTF:charsetI"
+utf-8;F:digest"%ó˙,ê%~4ÜªOÍ˝©•Uq_0â›•Z≥GzK—Ùw:lengthiù:dependencies_digest"%∑IÏv·ë™°Çµx˘<√Xö˝s|µ©s2˘∏	ü:idI"Edd7d7dec3a8b3c955e725af3ffc347e55c82b55cc220e774dc3df6cffb6d7027;F:
+mtimel+TÖ\W

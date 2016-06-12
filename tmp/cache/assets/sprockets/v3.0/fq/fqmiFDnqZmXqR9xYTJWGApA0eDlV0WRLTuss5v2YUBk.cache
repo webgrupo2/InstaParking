@@ -1,0 +1,36 @@
+{:uriI"¦file://app/assets/javascripts/vendors/bower_components/nouislider/bower.json?type=application/json&id=772a64372888772029650c8adf21f17a5617c1af06774cc301078e0a0a840a9f:ET:load_pathI"app/assets/javascripts;T:filenameI"Japp/assets/javascripts/vendors/bower_components/nouislider/bower.json;T:	nameI".vendors/bower_components/nouislider/bower;T:logical_pathI"3vendors/bower_components/nouislider/bower.json;T:content_typeI"application/json;T:sourceI"{
+	"name": "nouislider",
+	"description": "A lightweight, highly customizable range slider without bloat. Touch support on all modern devices and responsive design ready!",
+	"keywords": [
+		"jquery",
+		"slider",
+		"form",
+		"range",
+		"handles",
+		"touch",
+		"input",
+		"slide"
+	],
+	"main": [
+		"distribute/jquery.nouislider.all.min.js",
+		"distribute/jquery.nouislider.min.css",
+		"distribute/jquery.nouislider.pips.min.css"
+	],
+	"dependencies": {
+		"jquery": ">= 1.7.0"
+	},
+	"ignore": [
+		"**/.*",
+		"**/*.json"
+	],
+	"license": "http://www.wtfpl.net/about/",
+	"homepage": "http://refreshless.com/nouislider/",
+	"author": {
+		"name": "Leon Gersen"
+	}
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Xfile-digest://app/assets/javascripts/vendors/bower_components/nouislider/bower.json;TTF:charsetI"
+utf-8;F:digest"%Öxq%›z•÷î0H7ï[›ÿòÎ0®FI¨ßß:lengthi:dependencies_digest"% ©.®N<ôzî­)lDæƒ÷bH¯ƒJé©^=ÛhÖ•:idI"E772a64372888772029650c8adf21f17a5617c1af06774cc301078e0a0a840a9f;F:
+mtimel+ò†\W

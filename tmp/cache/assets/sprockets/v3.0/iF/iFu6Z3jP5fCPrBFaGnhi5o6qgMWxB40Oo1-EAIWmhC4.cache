@@ -1,0 +1,18 @@
+{:uriI"¨file://app/assets/javascripts/vendors/bower_components/typeahead.js/bower.json?type=application/json&id=0a3035ad5835758c4a376c4af51e3431ae65072ae006564cb6ac6d5f936b1ed3:ET:load_pathI"app/assets/javascripts;T:filenameI"Lapp/assets/javascripts/vendors/bower_components/typeahead.js/bower.json;T:	nameI"0vendors/bower_components/typeahead.js/bower;T:logical_pathI"5vendors/bower_components/typeahead.js/bower.json;T:content_typeI"application/json;T:sourceI"÷{
+  "name": "typeahead.js",
+  "version": "0.11.1",
+  "main": "dist/typeahead.bundle.js",
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "devDependencies": {
+    "jquery": "~1.7",
+    "jasmine-ajax": "~1.3.1",
+    "jasmine-jquery": "~1.5.2"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Zfile-digest://app/assets/javascripts/vendors/bower_components/typeahead.js/bower.json;TTF:charsetI"
+utf-8;F:digest"%Lû7ƒ#Äæ~ğ;¸n@ÛƒÂÙ„ë2òW
+ı¥‰:lengthi÷:dependencies_digest"%R.%Ò,!ìi’+Û*SD´Ä—8'qw	€¿ÂXE:idI"E0a3035ad5835758c4a376c4af51e3431ae65072ae006564cb6ac6d5f936b1ed3;F:
+mtimel+*‡\W

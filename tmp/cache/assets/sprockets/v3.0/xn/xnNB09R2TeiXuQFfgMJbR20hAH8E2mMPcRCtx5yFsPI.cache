@@ -1,0 +1,36 @@
+{:uriI"¥file://app/assets/javascripts/vendors/bower_components/install/package.json?type=application/json&id=228e09350ae833226d1f622b221dd1fa4cf841b6f14dc31c6d73b113814c4124:ET:load_pathI"app/assets/javascripts;T:filenameI"Iapp/assets/javascripts/vendors/bower_components/install/package.json;T:	nameI"-vendors/bower_components/install/package;T:logical_pathI"2vendors/bower_components/install/package.json;T:content_typeI"application/json;T:sourceI"²{
+  "name": "detect-zoom",
+  "version": "1.0.4",
+  "description": "Cross Browser Zoom and Pixel Ratio Detector",
+  "main": "detect-zoom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tombigel/detect-zoom.git"
+  },
+  "keywords": [
+    "browser",
+    "zoom",
+    "compatibility",
+    "pixel",
+    "ratio",
+    "retina"
+  ],
+  "author": "Yonathan Randolph",
+  "contributors": [
+    "Tom Bigelajzen <public@tombigel.com>"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "6eaf3107a6913a4f7b93665ba6d5bc16cdf0f3ab",
+  "devDependencies": {
+    "uglify-js": "~2.2.5"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Wfile-digest://app/assets/javascripts/vendors/bower_components/install/package.json;TTF:charsetI"
+utf-8;F:digest"%NÄœÆ^.İÕ×Ëğ'ÌÄˆsegÏ“u5†q2ÎÙ:lengthi²:dependencies_digest"%R°#ö§ØrÆàùÀ¶™„¬÷™_xóèş—_iıÓ:idI"E228e09350ae833226d1f622b221dd1fa4cf841b6f14dc31c6d73b113814c4124;F:
+mtimel+…\W

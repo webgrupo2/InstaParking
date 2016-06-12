@@ -1,0 +1,41 @@
+{:uriI"®file://app/assets/javascripts/vendors/bower_components/lightgallery/bower.json?type=application/json&id=8c89db39a3679c2d2f64e853220343dad5ddb8d7e4950cdadce8d578133430dd:ET:load_pathI"app/assets/javascripts;T:filenameI"Lapp/assets/javascripts/vendors/bower_components/lightgallery/bower.json;T:	nameI"0vendors/bower_components/lightgallery/bower;T:logical_pathI"5vendors/bower_components/lightgallery/bower.json;T:content_typeI"application/json;T:sourceI"R{
+    "name": "lightgallery",
+    "version": "1.2.1",
+    "description": "A lightweight, customizable, modular, responsive, lightbox gallery plugin for jQuery.",
+    "main": [
+        "dist/js/lightgallery.min.js",
+        "dist/css/lightgallery.css",
+        "dist/fonts/*",
+        "dist/img/*"
+    ],
+    "keywords": [
+        "gallery",
+        "lightbox",
+        "image",
+        "youtube",
+        "vimeo"
+    ],
+    "authors": [
+        "Sachin N <sachi77n@gmail.com>"
+    ],
+    "homepage": "http://sachinchoolur.github.io/lightGallery/",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sachinchoolur/lightGallery.git"
+    },
+    "license": "Apache-2.0",
+    "ignore": [
+        "README.md"
+    ],
+    "dependencies": {
+        "jquery": "~1.7.0"
+    },
+    "devDependencies": {
+        "qunit": "~1.12.0"
+    }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Zfile-digest://app/assets/javascripts/vendors/bower_components/lightgallery/bower.json;TTF:charsetI"
+utf-8;F:digest"%¶Cxæ4ã‡ÎO˘cå¿OÂ28∂T\
+ã` ÛÍò¢µY:lengthiR:dependencies_digest"%séf7C¯Æ•÷πç*:∂sµπ‘É%x¶ó`ﬁ˜˛Ò:idI"E8c89db39a3679c2d2f64e853220343dad5ddb8d7e4950cdadce8d578133430dd;F:
+mtimel+/Ö\W

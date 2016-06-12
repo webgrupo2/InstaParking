@@ -1,62 +1,202 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>InstaParking</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <style>
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    li a:hover:not(.active) {
-        background-color: #111;
-    }
-    
-    .active {
-        background-color: #4CAF50;
-    }
-    </style>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <% if current_user.type_of_user == 1 %>
-    <ul>
-      <li><%= link_to 'Home', root_path%></li>
-      <li><%= link_to 'Carros', cars_path%></li>
-      <li><%= link_to 'Reservaciones', reservations_path%></li>
-    </ul>
-  <% elsif current_user.type_of_user == 2 %>
-    <ul>
-      <li><%= link_to 'Home', root_path%></li>
-      <li><%= link_to 'Espacios', spots_path%></li>
-      <li><%= link_to 'Reservaciones', reservations_path%></li>
-    </ul>
-  <% else %>
-    <ul>
-      <li><%= link_to 'Home', root_path%></li>
-      <li><%= link_to 'Servicios Adicionales', adicional_services_path%></li>
-      <li><%= link_to 'Distritos', districts_path%></li>
-    </ul>
-  <% end %>
+  <head>
+    <title>InstaParking</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css"></link>
+    <!-- Theme CSS
+    -->
+    <%= stylesheet_link_tag "default_skin/css/theme", media: "screen", rel: "stylesheet", type: "text/css" %>
+    <!-- Admin Panels CSS
+    -->
+    <%= stylesheet_link_tag "admin-plugins/admin-panels/adminpanels", media: "screen", rel: "stylesheet", type: "text/css" %>
+    <%= stylesheet_link_tag "admin-forms/css/admin-forms", media: "screen", rel: "stylesheet", type: "text/css" %>
+    <%= stylesheet_link_tag "plugins/magnific/magnific-popup", media: "screen", rel: "stylesheet", type: "text/css" %>
+    <%= stylesheet_link_tag "admin-plugins/admin-modal/adminmodal", media: "screen", rel: "stylesheet", type: "text/css" %>
+    <!-- Admin Forms CSS
+    -->
+    <%= stylesheet_link_tag "admin-forms/css/admin-forms", media: "screen", rel: "stylesheet", type: "text/css" %>
+  </head>
+  <body class="dashboard-page sb-l-o sb-r-c onload-check">
+    <!-- Start: Main -->
+    <div id="main">
+      <!-- Start: Header -->
+      <header class="navbar navbar-fixed-top bg-light">
+        <div class="navbar-branding">
+          <a class="navbar-brand" href="/">
+            <b>InstaParking</b>
+          </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle fw600 p15" data-toggle="dropdown" href="#">
+              <span>
+                <%= current_user.names %>
+              </span>
+              <span class="caret caret-tp hidden-xs"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-persist pn w250 bg-white" role="menu">
+              <li class="br-t of-h">
+                <a class="fw600 p12 animated animated-short fadeInDown" href="/" id="signout">
+                  <span class="fa fa-power-off pr5"></span>
+                  Cerrar Sesión
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </header>
+      <!-- End: Header -->
+      <!-- Start: Sidebar -->
+      <aside class="nano nano-primary" id="sidebar_left">
+        <div class="nano-content">
+          <!-- Start: Sidebar Header -->
+          <header class="sidebar-header">
+            <div class="user-menu">
+              <div class="row text-center mbn">
+                <div class="col-xs-4">
+                  <a class="text-primary" data-placement="top" data-toggle="tooltip" href="dashboard.html" title="" data-original-title="Dashboard">
+                    <span class="glyphicons glyphicons-home"></span>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a class="text-info" data-placement="top" data-toggle="tooltip" href="pages_messages.html" title="" data-original-title="Messages">
+                    <span class="glyphicons glyphicons-inbox"></span>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a class="text-alert" data-placement="top" data-toggle="tooltip" href="pages_profile.html" title="" data-original-title="Tasks">
+                    <span class="glyphicons glyphicons-bell"></span>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a class="text-system" data-placement="top" data-toggle="tooltip" href="pages_timeline.html" title="" data-original-title="Activity">
+                    <span class="glyphicons glyphicons-imac"></span>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a class="text-danger" data-placement="top" data-toggle="tooltip" href="pages_profile.html" title="" data-original-title="Settings">
+                    <span class="glyphicons glyphicons-settings"></span>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a class="text-warning" data-placement="top" data-toggle="tooltip" href="pages_gallery.html" title="" data-original-title="Cron Jobs">
+                    <span class="glyphicons glyphicons-restart"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+          <!-- End: Sidebar Header -->
+          <!-- sidebar menu -->
+          <% if current_user.type_of_user == 1 %>
+            <ul class="nav sidebar-menu">
+              <li><%= link_to 'Home', root_path%></li>
+              <li><%= link_to 'Reservaciones', reservations_path%></li>
+              <li><%= link_to('Cerrar Sesión', destroy_user_session_path, :method => :delete) %></li>
+            </ul>
+          <% elsif current_user.type_of_user == 2 %>
+            <ul class="nav sidebar-menu">
+              <li><%= link_to 'Home', root_path%></li>
+              <li><%= link_to 'Espacios', spots_path%></li>
+              <li><%= link_to 'Reservaciones', reservations_path%></li>
+              <li><%= link_to('Cerrar Sesión', destroy_user_session_path, :method => :delete) %></li>
+            </ul>
+          <% else %>
+            <ul class="nav sidebar-menu">
+              <li><%= link_to 'Home', root_path%></li>
+              <li><%= link_to 'Servicios Adicionales', adicional_services_path%></li>
+              <li><%= link_to 'Distritos', districts_path%></li>
+              <li><%= link_to('Cerrar Sesión', destroy_user_session_path, :method => :delete) %></li>
+            </ul>
+          <% end %>
+            
+          <div class="sidebar-toggle-mini">
+            <a href="#">
+              <span class="fa fa-sign-out"></span>
+            </a>
+          </div>
+        </div>
+      </aside>
+      <!-- Start: Content-Wrapper -->
+      <section id="content_wrapper">
+        <!-- Start: Topbar -->
+        <header id="topbar">
+          <div class="topbar-left">
+            <ol class="breadcrumb">
+              <li class="crumb-icon">
+                <a href="/">
+                  <span class="glyphicon glyphicon-home"></span>
+                </a>
+              </li>
+              <li class="crumb-link">
+                <a href="/">Home</a>
+              </li>
+              <li class="crumb-trail">Dashboard</li>
+            </ol>
+          </div>
+        </header>
+        <section class="animated fadeIn" id="content">
+            <%= yield %>
+        </section>
+        <!-- End: Topbar -->
+      </section>
+      <!-- End: Content-Wrapper -->
+    </div>
+    <!-- End: Main -->
+    <!-- BEGIN MODALS -->
+    <div class="popup-basic p25 mfp-with-anim mfp-hide" id="modal-text-loading">
+      <h2 class="lh30 mt15 text-center">
+        <b class="text-primary">Cargando</b>
+      </h2>
+      <p class="text-center">Espere un momento porfavor</p>
+    </div>
+    <!-- BEGIN: PAGE SCRIPTS -->
+    <!-- jQuery -->
+    <script src="/assets/jquery_ui/jquery-ui.min.self-742b8a07a5f691b36d92964c50c59d68f20cfb6a8e3769c3e80ab9aca879e293.js?body=1"></script>
+    <!-- Bootstrap -->
+    <script src="/assets/bootstrap/bootstrap.min.self-f2d64b74536a49f843b022431e37325973468a71c9b362343deb0b6c582e5ba0.js?body=1"></script>
+    <!-- Sparklines CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js" type="text/javascript"></script>
+    <!-- Holder js -->
+    <script src="/assets/bootstrap/holder.min.self-4548d53a424fd9af10e4e11800e2ea4d6ae8ea51ecafa7b3708c4ff671368a07.js?body=1"></script>
+    <!-- Theme Javascript -->
+    <script src="/assets/main.self-764c11a9f05a2512af2bcc0b05c6180ac99ac13fdb486c31ca7ae7bdd4170ae3.js?body=1"></script>
+    <script src="/assets/utility/utility.self-6a6e41026709379210e7df697f4159723261a73527ac285c9a6d2b0ef8b65856.js?body=1"></script>
+    <script src="/assets/plugins/magnific/jquery.magnific-popup.self-cd4ba9dd2ca0a2b7939d0958fa38fd4ddb76cc8612b4cb93a2992b6df6ddc003.js?body=1"></script>
+    <!-- Form Validations -->
+    <script src="/assets/admin-forms/js/jquery.validate.min.self-fedd64e38c8197ace6cf01ef5db8c403f7d0a081f959fab60daf18873a114202.js?body=1"></script>
+    <script src="/assets/admin-forms/js/additional-methods.min.self-c2f70be1299c95b00fe528aa36246d48f732ee7f8941c34f255a5af40288a374.js?body=1"></script>
+    <script src="/assets/admin-forms/js/jquery-ui-timepicker.min.self-a228516e67124ac9ef4e47dcd2334d700d82fd4be960fca573d3252d69b6a60c.js?body=1"></script>
+    <script src="/assets/admin-forms/js/jquery-ui-datepicker.min.self-a228516e67124ac9ef4e47dcd2334d700d82fd4be960fca573d3252d69b6a60c.js?body=1"></script>
+    <!-- Admin Panels -->
+    <script src="/assets/admin-plugins/admin-panels/json2.self-9efe9a7be1ecf002feeb25c332373ae86485fb391b6d744550c1099cf6a53d0f.js?body=1"></script>
+    <script src="/assets/admin-plugins/admin-panels/jquery.ui.touch-punch.min.self-0a28baf3881924bffaa1ad228eeee930faf26c2a9be9974467b777b4270043b7.js?body=1"></script>
+    <script src="/assets/admin-plugins/admin-panels/adminpanels.self-00d8a57443159d37de541628f4845dbbeb672e7b031699b82aeca2277e45a6cd.js?body=1"></script>
+    <!-- Page Javascript -->
+    <script src="/assets/pages/widgets.self-b48f0e644429a569915a5437d4cce5aef60847091accd60ead9e0f8eb1d6b61f.js?body=1"></script>
+    <script>
+      $(document).ready(function() {
+      
+          "use strict";
+      
+          // Init Theme Core      
+          Core.init({
+              sbm: "sb-l-c",
+          });
+      
+      });
+      
+      $('#signout').click(function(){
+       append_url_ajax("/users/sign_out", 'tbl-cont', null, 'DELETE');
+       $('#alert-1').slideToggle('fast');
+      });
+    </script>
+    <!-- END: PAGE SCRIPTS -->
   
-<%= yield %>
 
 </body>
 </html>

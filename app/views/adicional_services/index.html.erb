@@ -1,29 +1,65 @@
-<p id="notice"><%= notice %></p>
+<div class="bg-light dark p30 br-b br-grey">
+  <div class="row">
+    <div class=col-md-3>
+      <p id="notice"><%= notice %></p>
 
-<h1>Lista de Servicios Adicionales</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Costo</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @adicional_services.each do |adicional_service| %>
-      <tr>
-        <td><%= adicional_service.name %></td>
-        <td><%= adicional_service.cost %></td>
-        <td><%= link_to 'Show', adicional_service %></td>
-        <td><%= link_to 'Edit', edit_adicional_service_path(adicional_service) %></td>
-        <td><%= link_to 'Destroy', adicional_service, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'Nuevo Servicio', new_adicional_service_path %>
+      <h1>Lista de Servicios Adicionales</h1>
+    </div>
+    <div class="col-md-3">
+      <div class="input-group input-group-merge input-hero mb10">
+        <a class="btn btn-primary btn-block" href="<%= new_adicional_service_path %>">
+          Nuevo Servicio
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tab-block p20 mt10">
+  <section>
+    
+    <div class="col-md-12">
+      <div class="panel panel-visible">
+        <div class="panel-heading">
+          <div class="panel-title hidden-xs">
+            <span class="glyphicon glyphicon-tasks">></span>
+            Lista de Servicios Adicionales
+          </div>
+        </div>
+        <div class="panel-body pn">
+          <table cellspacing="0" class="table table-striped table-hover" width="100%">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Costo</th>
+                <th colspan="3"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @adicional_services.each do |adicional_service| %>
+                <tr>
+                  <td><%= adicional_service.name %></td>
+                  <td><%= adicional_service.cost %></td>
+                  <td>
+                    <a class="btn btn-success" href="<%= adicional_service_path(adicional_service.id) %>">
+                      Ver
+                    </a>
+                  </td>
+                  <td>
+                    <a class="btn btn-warning" href="<%= edit_adicional_service_path(adicional_service.id) %>">
+                      Editar
+                    </a>
+                  </td>
+                  <td>
+                    <a class="btn btn-danger" data-confirm="Estas seguro?" data-method="DELETE" href="<%= adicional_service_path(adicional_service.id) %>">
+                      Eliminar
+                    </a>
+                  </td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

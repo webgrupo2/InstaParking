@@ -1,0 +1,22 @@
+{:uriI"­file://app/assets/javascripts/vendors/bower_components/jquery-mousewheel/bower.json?type=application/json&id=88861812ba13ed9e7c75c85740e441e6737977f41b88fb92367fdf794a02aa73:ET:load_pathI"app/assets/javascripts;T:filenameI"Qapp/assets/javascripts/vendors/bower_components/jquery-mousewheel/bower.json;T:	nameI"5vendors/bower_components/jquery-mousewheel/bower;T:logical_pathI":vendors/bower_components/jquery-mousewheel/bower.json;T:content_typeI"application/json;T:sourceI"{
+  "name": "jquery-mousewheel",
+  "version": "3.1.13",
+  "main": "./jquery.mousewheel.js",
+  "ignore": [
+    "*.json",
+    "*.markdown",
+    "*.txt",
+    ".*",
+    "!LICENSE.txt",
+    "Gruntfile.js",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": ">=1.2.2"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"_file-digest://app/assets/javascripts/vendors/bower_components/jquery-mousewheel/bower.json;TTF:charsetI"
+utf-8;F:digest"%–{Òim£´~™qà¬«9%ÛáæyÀ 	çÎR¼L_zø:lengthi:dependencies_digest"%?;f¦ò/VI òÃMh´dlˆÀ	%´frAØ:idI"E88861812ba13ed9e7c75c85740e441e6737977f41b88fb92367fdf794a02aa73;F:
+mtimel+!…\W

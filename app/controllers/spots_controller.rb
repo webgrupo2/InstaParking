@@ -3,6 +3,10 @@ class SpotsController < ApplicationController
   def index
     @spots = Spot.all
   end
+  
+  def show
+    @spot = Spot.find(params[:id])
+  end
 
   def new
     @spot = Spot.new
@@ -17,6 +21,7 @@ class SpotsController < ApplicationController
   end
 
   def edit
+    @districts = District.all
     @spot = Spot.find(params[:id])
   end
 
@@ -33,7 +38,7 @@ class SpotsController < ApplicationController
   private
   def params_spot
     params.require(:spot).permit(
-      :user_id, :district_id, :cost, :description, :address
+      :user_id, :district_id, :cost, :description, :address, :photo
     )
   end
 end

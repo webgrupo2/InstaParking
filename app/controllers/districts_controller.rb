@@ -7,6 +7,10 @@ class DistrictsController < ApplicationController
   def new
     @district = District.new
   end
+  
+  def show
+    @district = District.find(params[:id])
+  end
 
   def create
     district = District.new(params_district)

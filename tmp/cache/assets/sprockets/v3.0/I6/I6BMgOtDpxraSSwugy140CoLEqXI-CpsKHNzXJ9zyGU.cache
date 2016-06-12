@@ -1,0 +1,58 @@
+{:uriI"«file://app/assets/javascripts/vendors/bower_components/jquery.bootgrid/bower.json?type=application/json&id=4099a036670a02b089a4fa822f9241e95c0497901f924dc990dbd85b4e4ff59f:ET:load_pathI"app/assets/javascripts;T:filenameI"Oapp/assets/javascripts/vendors/bower_components/jquery.bootgrid/bower.json;T:	nameI"3vendors/bower_components/jquery.bootgrid/bower;T:logical_pathI"8vendors/bower_components/jquery.bootgrid/bower.json;T:content_typeI"application/json;T:sourceI"Ä{
+    "name": "jquery.bootgrid",
+    "description": "Nice, sleek and intuitive. A grid control especially designed for bootstrap.",
+    "keywords": [
+        "grid",
+        "table",
+        "data",
+        "sorting",
+        "filtering",
+        "UI",
+        "component",
+        "HTML5",
+        "accessibility",
+        "bootstrap"
+    ],
+    "version": "1.2.0",
+    "authors": [
+        {
+            "name": "Rafael Staib",
+            "email": "me@rafaelstaib.com",
+            "url": "http://www.rafaelstaib.com"
+        }
+    ],
+    "homepage": "http://www.jquery-bootgrid.com",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rstaib/jquery-bootgrid.git"
+    },
+    "license": "MIT",
+    "main": [
+        "dist/jquery.bootgrid.js",
+        "dist/jquery.bootgrid.css"
+    ],
+    "ignore": [
+        "build",
+        "demo",
+        "dist/*.nupkg",
+        "dist/*.zip",
+        "docs",
+        "lib",
+        "test",
+        "*.nuspec",
+        ".gitattributes",
+        ".gitignore",
+        ".travis.yml",
+        "bootgrid.jquery.json",
+        "Gruntfile.js",
+        "package.json"
+    ],
+    "dependencies": {
+        "jquery": ">=1.9.0",
+        "bootstrap": ">=3.1.1"
+    }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"]file-digest://app/assets/javascripts/vendors/bower_components/jquery.bootgrid/bower.json;TTF:charsetI"
+utf-8;F:digest"%5CÜÆÙÊd&ïR	ÅÁÇ¢ÑúädØëA@ÚìEé:lengthiÄ:dependencies_digest"%¬Úä“0ìM%·„ŒÕXıtÊ_¼•b¤ñô²yÔaS:idI"E4099a036670a02b089a4fa822f9241e95c0497901f924dc990dbd85b4e4ff59f;F:
+mtimel+#…\W

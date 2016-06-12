@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160523053159) do
+ActiveRecord::Schema.define(version: 20160612000010) do
 
   create_table "adicional_services", force: :cascade do |t|
     t.string   "name"
@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 20160523053159) do
 
   create_table "reservations", force: :cascade do |t|
     t.integer  "user_id"
-    t.integer  "car_id"
     t.integer  "spot_id"
     t.datetime "start_hour"
     t.datetime "end_hour"
@@ -48,11 +47,15 @@ ActiveRecord::Schema.define(version: 20160523053159) do
   create_table "spots", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "district_id"
-    t.float    "cost",        limit: 25
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.float    "cost",               limit: 25
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
     t.string   "description"
     t.string   "address"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
   end
 
   create_table "users", force: :cascade do |t|

@@ -1,0 +1,39 @@
+{:uriI"ßfile://app/assets/javascripts/vendors/bower_components/summernote/examples/lang.html?type=text/html&id=7c4e3393cad4dfb25678d8799e3e78a1782735c784a0e84cad6962d13780b70c:ET:load_pathI"app/assets/javascripts;T:filenameI"Rapp/assets/javascripts/vendors/bower_components/summernote/examples/lang.html;T:	nameI"6vendors/bower_components/summernote/examples/lang;T:logical_pathI";vendors/bower_components/summernote/examples/lang.html;T:content_typeI"text/html;T:sourceI"†<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <title>summernote</title>
+  <!-- include jquery -->
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+  <!-- include libraries BS3 -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" />
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+
+  <!-- include summernote -->
+  <link rel="stylesheet" href="../dist/summernote.css">
+  <script type="text/javascript" src="../dist/summernote.js"></script>
+  <script type="text/javascript" src="../lang/summernote-ko-KR.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.summernote').summernote({
+        height: 200,
+        tabsize: 2,
+        lang: 'ko-KR'
+      });
+    });
+  </script>
+</head>
+<body>
+<textarea class="summernote"><p>Seasons <b>coming up</b></p></textarea>
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"`file-digest://app/assets/javascripts/vendors/bower_components/summernote/examples/lang.html;TTF:charsetI"
+utf-8;F:digest"% Ø£ŒIπ,V^t∫¨”∂OüfóØó4ÚΩg;Å:lengthi†:dependencies_digest"%@ﬁ
+{∫\1£	;˝«!?9BºJBÄÿg§/‡æ›F::idI"E7c4e3393cad4dfb25678d8799e3e78a1782735c784a0e84cad6962d13780b70c;F:
+mtimel+ˇÜ\W

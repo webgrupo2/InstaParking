@@ -1,0 +1,23 @@
+{:uriI"¢file://app/assets/javascripts/vendors/bower_components/bower/Source/package.yml?type=text/yaml&id=3594b6ddadd5f3b2899f1d1396da13c5b10fe6f96f640875be8a359c38c95fab:ET:load_pathI"app/assets/javascripts;T:filenameI"Mapp/assets/javascripts/vendors/bower_components/bower/Source/package.yml;T:	nameI"2vendors/bower_components/bower/Source/package;T:logical_pathI"6vendors/bower_components/bower/Source/package.yml;T:content_typeI"text/yaml;T:sourceI"³name: "AtomJS"
+
+exports: "atom.js"
+
+web: "[atomjs.com](http://atomjs.com/)"
+
+description: "Atom, The JavaScript framework"
+
+license:
+	- "[GNU Lesser General Public License](http://opensource.org/licenses/lgpl-license.php)"
+	- "[MIT License](http://opensource.org/licenses/mit-license.php)"
+
+copyright: "&copy; [AtomJS](http://atomjs.com)"
+
+authors: "[AtomJS Development Team](http://atomjs.com)"
+
+sources: "*.js"
+
+overall: "overall.js";T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"[file-digest://app/assets/javascripts/vendors/bower_components/bower/Source/package.yml;TTF:charsetI"
+utf-8;F:digest"%;Çƒô)²™¸İ}G	©ë™£¨É]p­«¶ì	¢{°GŠÍ:lengthi³:dependencies_digest"% †®¼¦ìœ+SªVÉİÄğúVXn,èø27è»,«F:idI"E3594b6ddadd5f3b2899f1d1396da13c5b10fe6f96f640875be8a359c38c95fab;F:
+mtimel+à„\W

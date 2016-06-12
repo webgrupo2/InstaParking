@@ -1,36 +1,68 @@
-<p id="notice"><%= notice %></p>
+<div class="bg-light dark p30 br-b br-grey">
+  <div class="row">
+    <div class=col-md-3>
+      <p id="notice"><%= notice %></p>
 
-<h1>Listado de Reservaciones</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Auto</th>
-      <th>Lugar</th>
-      <th>Hora Inicio</th>
-      <th>Hora Fin</th>
-      <th>Costo</th>
-      <th>Estado</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @reservations.each do |reservation| %>
-      <tr>
-        <td><%= reservation.car_id %></td>
-        <td><%= reservation.spot_id %></td>
-        <td><%= reservation.start_hour %></td>
-        <td><%= reservation.end_hour %></td>
-        <td><%= reservation.final_cost %></td>
-        <td><%= reservation.status %></td>
-        <td><%= link_to 'Show', reservation %></td>
-        <td><%= link_to 'Destroy', reservation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <h1>Listado de Reservaciones</h1>
+    </div>
+    <% if current_user.type_of_user == 1%>
+      <div class="col-md-3">
+        <div class="input-group input-group-merge input-hero mb10">
+          <a class="btn btn-primary btn-block" href="<%= new_reservation_path %>">
+            Realizar Reservacion
+          </a>
+        </div>
+      </div>
     <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'Realizar Reservacion', new_reservation_path %>
+  </div>
+</div>
+<div class="tab-block p20 mt10">
+  <section>
+    
+    <div class="col-md-12">
+      <div class="panel panel-visible">
+        <div class="panel-heading">
+          <div class="panel-title hidden-xs">
+            <span class="glyphicon glyphicon-tasks">></span>
+            Lista de Reservaciones
+          </div>
+        </div>
+        <div class="panel-body pn">
+          <table cellspacing="0" class="table table-striped table-hover" width="100%">
+            <thead>
+              <tr>
+                <th>Lugar</th>
+                <th>Hora Inicio</th>
+                <th>Hora Fin</th>
+                <th>Costo</th>
+                <th>Estado</th>
+                <th colspan="3"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @reservations.each do |reservation| %>
+                <tr>
+                  <td><%= Spot.find(reservation.spot_id).address rescue '' %></td>
+                  <td><%= reservation.start_hour %></td>
+                  <td><%= reservation.end_hour %></td>
+                  <td><%= reservation.final_cost %></td>
+                  <td><%= reservation.status %></td>
+                  <td>
+                    <a class="btn btn-success" href="<%= reservation_path(reservation.id) %>">
+                      Ver
+                    </a>
+                  </td>
+                  <td>
+                    <a class="btn btn-danger" data-confirm="Estas seguro?" data-method="DELETE" href="<%= reservation_path(reservation.id) %>">
+                      Eliminar
+                    </a>
+                  </td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

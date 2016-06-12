@@ -1,0 +1,22 @@
+{:uriI"¨file://app/assets/javascripts/vendors/bower_components/flot.curvedlines/bower.json?type=application/json&id=995b638be48bf35c497705a800c8ef29628bb436ce43393aa4d7d23a1d43e4dd:ET:load_pathI"app/assets/javascripts;T:filenameI"Papp/assets/javascripts/vendors/bower_components/flot.curvedlines/bower.json;T:	nameI"4vendors/bower_components/flot.curvedlines/bower;T:logical_pathI"9vendors/bower_components/flot.curvedlines/bower.json;T:content_typeI"application/json;T:sourceI"ı{
+  "name": "flot.curvedlines",
+  "main": "curvedLines.js",
+  "authors": [
+    "Michael Zinsmaier"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/*",
+    "!curvedLines.js",
+    "!bower.json"
+  ],
+  "dependencies": {
+     "flot": ">=0.8.0"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"^file-digest://app/assets/javascripts/vendors/bower_components/flot.curvedlines/bower.json;TTF:charsetI"
+utf-8;F:digest"%Øk¶%‰∞{à#ª[çf÷;(P„ùÙc3Pâ<]=Í€:lengthiı:dependencies_digest"%àŸPS≤m⁄IÅ_Ã¨TÈóº1Ô;^
+•õ"µñn‹¯:idI"E995b638be48bf35c497705a800c8ef29628bb436ce43393aa4d7d23a1d43e4dd;F:
+mtimel+ÛÑ\W

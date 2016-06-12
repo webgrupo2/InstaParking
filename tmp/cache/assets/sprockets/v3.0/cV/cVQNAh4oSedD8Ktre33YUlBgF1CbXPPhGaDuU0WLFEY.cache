@@ -1,0 +1,45 @@
+{:uriI"³file://app/assets/javascripts/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.html?type=text/html&id=fb26c8fe59dd91e6a83493b3c1e02f7913f0de146528b7310010debf39c920b4:ET:load_pathI"app/assets/javascripts;T:filenameI"^app/assets/javascripts/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.html;T:	nameI"Bvendors/bower_components/bootstrap-sweetalert/lib/sweet-alert;T:logical_pathI"Gvendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.html;T:content_typeI"text/html;T:sourceI"A<!-- Note: this file is only intended for development use! -->
+
+<div class="sweet-overlay"></div>
+
+
+<!-- SweetAlert box -->
+<div class="sweet-alert">
+
+  <div class="icon error">
+    <span class="x-mark">
+      <span class="line left"></span>
+      <span class="line right"></span>
+    </span>
+  </div>
+
+  <div class="icon warning">
+    <span class="body"></span>
+    <span class="dot"></span>
+  </div>
+
+  <div class="icon info"></div>
+
+  <div class="icon success">
+    <span class="line tip"></span>
+    <span class="line long"></span>
+    <div class="placeholder"></div>
+    <div class="fix"></div>
+  </div>
+
+  <div class="icon custom"></div>
+
+
+  <h2>Title</h2>
+  <p class="text-muted">Text</p>
+  <p>
+    <button class="cancel btn btn-lg btn-default">Cancel</button>
+    <button class="confirm btn btn-lg">OK</button>
+  </p>
+</div>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"lfile-digest://app/assets/javascripts/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.html;TTF:charsetI"
+utf-8;F:digest"%4Y¹G’^ï¬-2û^±=c±éÖaõóáhÇÙì¯I:lengthiA:dependencies_digest"%búò/ì’Ýxfj·†8°òºÁÈ
+AöÙ‘Oª·‹®sá’:idI"Efb26c8fe59dd91e6a83493b3c1e02f7913f0de146528b7310010debf39c920b4;F:
+mtimel+×„\W

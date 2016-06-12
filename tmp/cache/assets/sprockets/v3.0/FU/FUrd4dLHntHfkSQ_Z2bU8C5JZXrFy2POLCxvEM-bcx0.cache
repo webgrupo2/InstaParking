@@ -1,0 +1,20 @@
+{:uriI"ªfile://app/assets/javascripts/vendors/bower_components/farbtastic/component.json?type=application/json&id=25ec030c5256965f717f9fc0812ef864c6e494bcf570fb2d2c48a5f98ae8fc0b:ET:load_pathI"app/assets/javascripts;T:filenameI"Napp/assets/javascripts/vendors/bower_components/farbtastic/component.json;T:	nameI"2vendors/bower_components/farbtastic/component;T:logical_pathI"7vendors/bower_components/farbtastic/component.json;T:content_typeI"application/json;T:sourceI"ü{
+  "name": "farbtastic",
+  "version": "2.0.0-alpha.1",
+  "description": "jQuery Color Wheel",
+  "keywords": [
+    "jquery"
+  ],
+  "scripts": [
+    "src/farbtastic.js"
+  ],
+  "dependencies": {
+    "components/jquery": "*"
+  },
+  "license": "GPL-2.0"
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"\file-digest://app/assets/javascripts/vendors/bower_components/farbtastic/component.json;TTF:charsetI"
+utf-8;F:digest"%qQQ–2xyÜŞ­'¹üÑoëÚ?¿…+¼©¦e:lengthiü:dependencies_digest"%h‹¨×†¼[O°Gù”["N‘Ÿ+½=Ÿ=¦GëªÍ±é:idI"E25ec030c5256965f717f9fc0812ef864c6e494bcf570fb2d2c48a5f98ae8fc0b;F:
+mtimel+ê„\W

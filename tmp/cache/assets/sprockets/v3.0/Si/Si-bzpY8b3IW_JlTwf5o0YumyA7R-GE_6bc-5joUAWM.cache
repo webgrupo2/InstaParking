@@ -1,0 +1,58 @@
+{:uriI"¸file://app/assets/javascripts/vendors/bower_components/material-design-iconic-font/grunt/aliases.yaml?type=text/yaml&id=14b91b01fee874995ff3d69dab19434a5af05715eb63178fbb64ebc72f95f16b:ET:load_pathI"app/assets/javascripts;T:filenameI"capp/assets/javascripts/vendors/bower_components/material-design-iconic-font/grunt/aliases.yaml;T:	nameI"Gvendors/bower_components/material-design-iconic-font/grunt/aliases;T:logical_pathI"Kvendors/bower_components/material-design-iconic-font/grunt/aliases.yml;T:content_typeI"text/yaml;T:sourceI"Ãdefault:
+  description: 'Default (production) build'
+  tasks:
+    - prod
+dev:
+  description: 'Development build'
+  tasks:
+    - 'concurrent:devFirst'
+    - 'concurrent:devSecond'
+    - 'concurrent:devThird'
+prod:
+  description: 'Production build'
+  tasks:
+    - 'concurrent:prodFirst'
+    - 'concurrent:prodSecond'
+    - 'concurrent:prodThird'
+prepare-icons:
+  description: 'Move and rename svg from material-design-icons repository to src folder'
+  tasks:
+    - 'copy:action'
+    - 'copy:alert'
+    - 'copy:av'
+    - 'copy:communication'
+    - 'copy:content'
+    - 'copy:device'
+    - 'copy:editor'
+    - 'copy:file'
+    - 'copy:hardware'
+    - 'copy:image'
+    - 'copy:maps'
+    - 'copy:navigation'
+    - 'copy:notification'
+    - 'copy:social'
+    - 'copy:toggle'
+font-dev:
+  description: 'Build iconic font and example page from Google icons only'
+  tasks:
+    - 'webfont:dev'
+    - 'replace'
+    - 'clean:less-temp'
+    - dev
+font-prod:
+  description: 'Build iconic font and example page from prepared icons'
+  tasks:
+    - 'webfont:prod'
+    - 'replace'
+    - 'clean:less-temp'
+    - prod
+less-sass:
+  description: 'Convert LESS files into SASS'
+  tasks:
+    - lessToSass
+    - 'copy:less'
+    - 'clean:sass-temp';T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"qfile-digest://app/assets/javascripts/vendors/bower_components/material-design-iconic-font/grunt/aliases.yaml;TTF:charsetI"
+utf-8;F:digest"%ªï^â&¥ý"ºÂk%¢BCÉÀ	 `è÷ç%G‚ÚÆ<#:lengthiÃ:dependencies_digest"%µúü‘pÂÃHÎÚÓ©	.úÝwŒê[XŽÃæÙU '	¨:idI"E14b91b01fee874995ff3d69dab19434a5af05715eb63178fbb64ebc72f95f16b;F:
+mtimel+Z…\W

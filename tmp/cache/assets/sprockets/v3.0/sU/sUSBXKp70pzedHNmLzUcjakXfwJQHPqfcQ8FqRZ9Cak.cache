@@ -1,0 +1,58 @@
+{:uriI"¨file://app/assets/javascripts/vendors/bower_components/fullcalendar/bower.json?type=application/json&id=f67fad3c830fde7b0075a375a4cb9833e88110d8b55b001a29b0501e18a49242:ET:load_pathI"app/assets/javascripts;T:filenameI"Lapp/assets/javascripts/vendors/bower_components/fullcalendar/bower.json;T:	nameI"0vendors/bower_components/fullcalendar/bower;T:logical_pathI"5vendors/bower_components/fullcalendar/bower.json;T:content_typeI"application/json;T:sourceI"¥{
+  "name": "fullcalendar",
+  "title": "FullCalendar",
+  "version": "2.3.1",
+  "description": "Full-sized drag & drop event calendar",
+  "keywords": [
+    "calendar",
+    "event",
+    "full-sized",
+    "jquery-plugin"
+  ],
+  "homepage": "http://fullcalendar.io/",
+  "bugs": "http://fullcalendar.io/wiki/Reporting-Bugs/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arshaw/fullcalendar.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/arshaw/fullcalendar/blob/master/license.txt"
+  },
+  "author": {
+    "name": "Adam Shaw",
+    "email": "arshaw@arshaw.com",
+    "url": "http://arshaw.com/"
+  },
+  "copyright": "2015 Adam Shaw",
+  "dependencies": {
+    "jquery": ">=1.7.1",
+    "moment": ">=2.5.0"
+  },
+  "devDependencies": {
+    "jquery-ui": ">=1.11.1",
+    "jquery-simulate-ext": "~1.3.0",
+    "jquery-mockjax": "~1.5.4",
+    "jasmine-jquery": "~2.0.3",
+    "jasmine-fixture": "~1.2.0",
+    "moment-timezone": "~0.2.1",
+    "bootstrap": "~3.2.0"
+  },
+  "main": [
+    "dist/fullcalendar.js",
+    "dist/fullcalendar.css"
+  ],
+  "ignore": [
+    "*",
+    "**/.*",
+    "!/dist/**",
+    "!/changelog.*",
+    "!/license.*",
+    "/readme.*"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Zfile-digest://app/assets/javascripts/vendors/bower_components/fullcalendar/bower.json;TTF:charsetI"
+utf-8;F:digest"%ôó¸…ªù@8GB„_Ë±ã‘;@$ÈŒWí¨:lengthi¥:dependencies_digest"%“E¿èh\Ç¦s—öÀ‰h)0ÑoŒHÄTÊ™:idI"Ef67fad3c830fde7b0075a375a4cb9833e88110d8b55b001a29b0501e18a49242;F:
+mtimel+…\W

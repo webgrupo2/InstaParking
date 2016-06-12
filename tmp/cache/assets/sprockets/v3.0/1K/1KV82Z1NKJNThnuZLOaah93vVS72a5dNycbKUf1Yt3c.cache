@@ -1,0 +1,32 @@
+{:uriI"¬file://app/assets/javascripts/vendors/bower_components/material-shadows/bower.json?type=application/json&id=2e938aa1e18580974efc4dbc86fb4082930e65600ab2c6d96ea5792527144d40:ET:load_pathI"app/assets/javascripts;T:filenameI"Papp/assets/javascripts/vendors/bower_components/material-shadows/bower.json;T:	nameI"4vendors/bower_components/material-shadows/bower;T:logical_pathI"9vendors/bower_components/material-shadows/bower.json;T:content_typeI"application/json;T:sourceI"ë{
+  "name": "material-shadows",
+  "version": "2.0.1",
+  "authors": [
+    "@mrmlnc (Denis Malinochkin)"
+  ],
+  "description": "Mixins library: Paper shadows of material design",
+  "keywords": [
+    "google",
+    "material",
+    "material-design",
+    "google-material-design",
+    "shadows",
+    "shadow",
+    "depth",
+    "less",
+    "sass",
+    "stylus"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mrmlnc/material-shadows",
+  "ignore": [
+    "example.html",
+    "test"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"^file-digest://app/assets/javascripts/vendors/bower_components/material-shadows/bower.json;TTF:charsetI"
+utf-8;F:digest"%‰äÒÚk@+µÆáSU
+>Y’Ö"Ú×üÔîC\PÒÿU:lengthië:dependencies_digest"%`koô#µı°ÅV^piV:ó+²gW_Åu+@’eì:idI"E2e938aa1e18580974efc4dbc86fb4082930e65600ab2c6d96ea5792527144d40;F:
+mtimel+«†\W

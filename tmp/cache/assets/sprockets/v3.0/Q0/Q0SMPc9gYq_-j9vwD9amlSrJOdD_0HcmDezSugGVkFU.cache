@@ -1,0 +1,40 @@
+{:uriI"®file://app/assets/javascripts/vendors/bower_components/summernote/package.json?type=application/json&id=8de633a3fce9ed6f7709c4005a5ad4f32f50c0e118d26e958ba00755dd31afe0:ET:load_pathI"app/assets/javascripts;T:filenameI"Lapp/assets/javascripts/vendors/bower_components/summernote/package.json;T:	nameI"0vendors/bower_components/summernote/package;T:logical_pathI"5vendors/bower_components/summernote/package.json;T:content_typeI"application/json;T:sourceI">{
+  "name": "summernote",
+  "description": "Super Simple WYSIWYG Editor on Bootstrap",
+  "version": "0.6.16",
+  "license": "MIT",
+  "keywords": [
+    "editor",
+    "bootstrap",
+    "WYSIWYG"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/summernote/summernote.git"
+  },
+  "author": {
+    "name": "Hackerwins",
+    "email": "<susukang98@gmail.com>"
+  },
+  "main": "dist/summernote.js",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-jshint": "0.7.2",
+    "grunt-contrib-qunit": "0.5.2",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "*",
+    "grunt-exec": "^0.4.6",
+    "grunt-recess": "*",
+    "grunt-saucelabs": "*",
+    "load-grunt-tasks": "0.2.0",
+    "open": "0.0.4",
+    "requirejs": "2.1.9"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Zfile-digest://app/assets/javascripts/vendors/bower_components/summernote/package.json;TTF:charsetI"
+utf-8;F:digest"%|‚∏8›˜Fo{@˜}ÅÚ‘]à[çM”Õ@KböÙy∏_u:lengthi>:dependencies_digest"%dHö∫°√V3Ú4Ih#´› WçtSyÅç˜Z4sxXJ:idI"E8de633a3fce9ed6f7709c4005a5ad4f32f50c0e118d26e958ba00755dd31afe0;F:
+mtimel+"á\W

@@ -1,0 +1,24 @@
+{:uriI"©file://app/assets/javascripts/vendors/bower_components/animate.css/package.json?type=application/json&id=538bba04e75b3752d04e77f63a0d441a3c0eea7e3033e299302c28ee86488519:ET:load_pathI"app/assets/javascripts;T:filenameI"Mapp/assets/javascripts/vendors/bower_components/animate.css/package.json;T:	nameI"1vendors/bower_components/animate.css/package;T:logical_pathI"6vendors/bower_components/animate.css/package.json;T:content_typeI"application/json;T:sourceI"©{
+  "name": "animate.css",
+  "version": "3.3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daneden/animate.css.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-cssmin": "~0.8.0",
+    "load-grunt-tasks": "~0.2.0"
+  },
+  "spm": {
+    "main": "./animate.css"
+  }
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"[file-digest://app/assets/javascripts/vendors/bower_components/animate.css/package.json;TTF:charsetI"
+utf-8;F:digest"%×u¨IİS£xÎÃ4qËº#a{_D/=`Êö9óCpÈ:lengthi©:dependencies_digest"%².+	Ib×šV—^“.Û)lÄS¼œ‡yïwîD<_Ş:idI"E538bba04e75b3752d04e77f63a0d441a3c0eea7e3033e299302c28ee86488519;F:
+mtimel+¤„\W

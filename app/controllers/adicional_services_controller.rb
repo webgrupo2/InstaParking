@@ -7,6 +7,10 @@ class AdicionalServicesController < ApplicationController
   def new
     @adicional_service = AdicionalService.new
   end
+  
+  def show
+    @adicional_service = AdicionalService.find(params[:id])
+  end
 
   def create
     adicional_service = AdicionalService.new(params_adicional_service)
